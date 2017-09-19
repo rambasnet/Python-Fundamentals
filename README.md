@@ -21,7 +21,7 @@ Ch2-Data-Variables -        Chapter 2: Variables, expressions, and statements
 Ch4-Functions -             Chapter 4 and 6: Functions and Fruitful functions
     Functions-Built-in -    Examples of some built-in functions
     Functions-Lambda -      Lambda functions, map(), reduce(), filter()
-    Functions-Recusion -    Chapter 18: Recursion
+    Functions-Recursion -   Chapter 18: Recursion
 Ch5-Conditionals -          Chapter 5: Conditionals
 Ch7-Iterations -            Chapter 7: Iteration - for and while loops
 Ch8-Strings -               Chapter 8: Strings

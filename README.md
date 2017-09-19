@@ -2,7 +2,7 @@
 <h1>How to Think Like a Computer Scientist </h1>
 
 <h2>
-Learning Python3 using Jupyter Notebooks and pythontutor.com
+Learning Python3 using Jupyter Notebook (interactive notebook) and pythontutor.com (code visualization)
 </h2>
 <h3> by Ram Basnet </h3>
 

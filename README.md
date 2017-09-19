@@ -1,7 +1,12 @@
 # thinkpythonnotebooks
-Jupyter Notebooks for Think Python - How to Think Like a Computer Scientist Textbook
+<h1>How to Think Like a Computer Scientist </h1>
 
-Based on Learning with Python 3 by Peter Wentworth, Jeffrey Elkner, Allen B. Downey, and Chris Meyers
+<h2>
+Learning Python3 using Jupyter Notebooks
+by Ram Basnet
+</h2>
+
+Based on Learning with Python 3 by Peter Wentworth, Jeffrey Elkner, Allen B. Downey, and Chris Meyers and Think Python - How to Think Like a Computer Scientist 2nd edition by Jeffrey Elkner, Allen B. Downey, and Chris Meyers
 
 http://openbookproject.net/thinkcs/python/english3e/index.html
 

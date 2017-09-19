@@ -8,12 +8,14 @@ http://openbookproject.net/thinkcs/python/english3e/index.html
 Notebook mapping with corresponding chapter
 
 <pre>
+Notebook                    Think Python3 Textbook 
+========================    ============================================== 
 Ch1-Into -                  Chapter 1: The way of the program
 Ch2-Data-Variables -        Chapter 2: Variables, expressions, and statements
 Ch4-Functions -             Chapter 4 and 6: Functions and Fruitful functions
     Functions-Built-in -    Examples of some built-in functions
     Functions-Lambda -      Lambda functions, map(), reduce(), filter()
-    Functions-Recusion -              Chapter 18: Recursion
+    Functions-Recusion -    Chapter 18: Recursion
 Ch5-Conditionals -          Chapter 5: Conditionals
 Ch7-Iterations -            Chapter 7: Iteration - for and while loops
 Ch8-Strings -               Chapter 8: strings

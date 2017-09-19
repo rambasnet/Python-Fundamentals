@@ -19,9 +19,9 @@ Ch7-Iterations -        Chapter 7: Iteration - for and while loops
 Ch8-Strings -           Chapter 8: strings
 Ch9-Tuples -            Chapter 9: Tuples
 Ch11-Lists  -           Chapter 11: Lists
-    Adv-Lists           List comprehension
+    Lists-Advanced           List comprehension
 Ch12-Modules -          Chapter 12: Modules - built-in and user-defined
 Ch13-Files -            Chapter 13: Files - with, open, binary, urllib
 Ch20-Dictionaries       Chapter 20: Dictionaries
-    Adv-Dictionaries    zip, OrderedDict
+     Dictionaries-Advanced    zip, OrderedDict
 </pre>

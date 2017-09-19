@@ -2,9 +2,10 @@
 <h1>How to Think Like a Computer Scientist </h1>
 
 <h2>
-Learning Python3 using Jupyter Notebooks
-by Ram Basnet
+Learning Python3 using Jupyter Notebooks and pythontutor.com
 </h2>
+<h3> by Ram Basnet </h3>
+
 
 Based on Learning with Python 3 by Peter Wentworth, Jeffrey Elkner, Allen B. Downey, and Chris Meyers and Think Python - How to Think Like a Computer Scientist 2nd edition by Jeffrey Elkner, Allen B. Downey, and Chris Meyers
 

@@ -23,12 +23,12 @@ Ch4-Functions -             Chapter 4 and 6: Functions and Fruitful functions
     Functions-Recusion -    Chapter 18: Recursion
 Ch5-Conditionals -          Chapter 5: Conditionals
 Ch7-Iterations -            Chapter 7: Iteration - for and while loops
-Ch8-Strings -               Chapter 8: strings
+Ch8-Strings -               Chapter 8: Strings
 Ch9-Tuples -                Chapter 9: Tuples
 Ch11-Lists  -               Chapter 11: Lists
     Lists-Advanced -        List comprehension
-Ch12-Modules -              Chapter 12: Modules - built-in and user-defined
+Ch12-Modules -              Chapter 12: Modules - built-in and user-defined modules
 Ch13-Files -                Chapter 13: Files - with, open, binary, urllib
 Ch20-Dictionaries           Chapter 20: Dictionaries
-     Dictionaries-Advanced - zip, OrderedDict
+    Dictionaries-Advanced - zip(), OrderedDict
 </pre>

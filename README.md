@@ -6,7 +6,6 @@ Learning with Python3 using Jupyter Notebook (interactive notebook) and pythontu
 </h2>
 <h3> by Ram Basnet </h3>
 
-
 Based on Learning with Python 3 by Peter Wentworth, Jeffrey Elkner, Allen B. Downey, and Chris Meyers and Think Python - How to Think Like a Computer Scientist 2nd edition by Jeffrey Elkner, Allen B. Downey, and Chris Meyers
 
 http://openbookproject.net/thinkcs/python/english3e/index.html
@@ -14,24 +13,24 @@ http://openbookproject.net/thinkcs/python/english3e/index.html
 Notebook mapping with corresponding chapter
 
 <pre>
-Notebook                    Think Python3 Textbook 
-========================    ============================================== 
-Ch1-Into -                  Chapter 1: The way of the program
-Ch2-Data-Variables -        Chapter 2: Variables, expressions, and statements
-Ch4-Functions -             Chapter 4 and 6: Functions and Fruitful functions
-    Functions-Built-in -    Examples of some built-in functions
-    Functions-Lambda -      Lambda functions, map(), reduce(), filter()
-    Functions-Recursion -   Chapter 18: Recursion
-Ch5-Conditionals -          Chapter 5: Conditionals
-Ch7-Iterations -            Chapter 7: Iteration - for and while loops
-Ch8-Strings -               Chapter 8: Strings
-Ch9-Tuples -                Chapter 9: Tuples
-Ch11-Lists  -               Chapter 11: Lists
-    Lists-Advanced -        List comprehension
-Ch12-Modules -              Chapter 12: Modules - built-in and user-defined modules
-Ch13-Files -                Chapter 13: Files - with, open, binary, urllib
-Ch20-Dictionaries           Chapter 20: Dictionaries
-    Dictionaries-Advanced - zip(), OrderedDict
+Notebook ->                  Think Python3 Textbook 
+==========================   ============================================== 
+Ch1-Intro ->                 Chapter 1: The way of the program
+Ch2-Data-Variables ->        Chapter 2: Variables, expressions, and statements
+Ch4-Functions ->             Chapter 4 and 6: Functions and Fruitful functions
+    Functions-Built-in -     Examples of some built-in functions
+    Functions-Lambda -       Lambda functions, map(), reduce(), filter()
+    Functions-Recursion ->   Chapter 18: Recursion
+Ch5-Conditionals ->          Chapter 5: Conditionals
+Ch7-Iterations ->            Chapter 7: Iteration - for and while loops
+Ch8-Strings ->               Chapter 8: Strings
+Ch9-Tuples ->                Chapter 9: Tuples
+Ch11-Lists  ->               Chapter 11: Lists
+    Lists-Advanced ->        List comprehension
+Ch12-Modules ->              Chapter 12: Modules - built-in and user-defined modules
+Ch13-Files ->                Chapter 13: Files - with, open, binary, urllib
+Ch20-Dictionaries ->         Chapter 20: Dictionaries
+    Dictionaries-Advanced -  zip(), OrderedDict
 </pre>
 
 Status: Work-In-Progress

@@ -2,7 +2,7 @@
 
 def fib(n):    
     """
-    write Fibonacci series up to nth term
+    prints Fibonacci series up to nth term
     """
     a, b = 0, 1
     print(a, b, end=' ')
@@ -15,7 +15,7 @@ def fib(n):
 
 def fib2(n):   
     """
-    return list of Fibonacci series up to nth term
+    returns list of Fibonacci series up to nth term
     """
     result = [0, 1]
     i = 2

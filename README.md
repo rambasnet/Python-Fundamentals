@@ -35,6 +35,7 @@ Ch19-Exceptions ->           Chapter 19: Exceptions
 Ch20-Dictionaries ->         Chapter 20: Dictionaries
     Dictionaries-Advanced -  zip(), OrderedDict
 Memoization ->               Optimizing recursive solutions
+Test ->                      Testing python codes
 </pre>
 
 Status: Work-In-Progress

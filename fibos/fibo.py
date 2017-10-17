@@ -25,9 +25,12 @@ def fib2(n):
     return result
 
 
-if __name__ == "__main__":
+def main():
     import sys
     fib(5)
     print(fib2(5))
     fib(int(sys.argv[1]))
     print(fib2(int(sys.argv[1])))
+
+if __name__ == "__main__":
+    main()

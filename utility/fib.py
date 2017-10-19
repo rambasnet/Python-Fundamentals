@@ -29,7 +29,7 @@ def fib(n):
     return a
 
 def fibList(n):
-    """ Creates and retuns a list of Fibonacci 
+    """ Creates and returns a list of Fibonacci 
     numbers up to the n-th generation 
     
     >>> fibList(2)

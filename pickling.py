@@ -5,37 +5,45 @@ pickling and unpickling or serialization and deserialization
 import pickle
 
 class Rectangle(object):
-	'''
-	Rectangle class	
-	'''
-	def __init__(self, len=1, width=1):
-		self.len = len
-		self.width = width
-		self.area = self.getArea()
+    '''
+    Rectangle class	
+    '''
+    def __init__(self, length=1, width=1):
+        self.length = len
+        self.width = width
+        self.area = self.getArea()
 
-	def getArea(self):
-		return self.len * self.width
+    def getArea(self):
+        return self.length * self.width
 
-	def __str__(self):
-		return "len: {0:.2f} width: {1:.2f} area: {2:.2f}".format(
-			self.len, self.width, self.area)
+    def __str__(self):
+        return "len: {0:.2f} width: {1:.2f} area: {2:.2f}".format(
+            self.length, self.width, self.area)
 
 
-try:
-	with open('binary.pickle', 'rb') as f:
-		data = pickle.load(f)
-except FileNotFoundError:
-	r = Rectangle(10, 5)
-	data = {'a': ['apple', 'a2dsaf3@##', 'a$fdw'],
-            'b': ['ball', 'black', 'basket'],
-            'c': ['cat', 'c!dsfera'],
-            'r': r
-            }
-	with open('binary.pickle', 'wb') as f:
-		pickle.dump(data, f)
-		print('pickle file created.')
-else:
-	if isinstance(data, dict):
-		for key in data:
-			print(data[key])
+def main():
+    """
+	main function
+	"""
+    fileName = 'binary.pickle'
+    try:
+        with open(fileName, 'rb') as f:
+            data = pickle.load(f)
+    except FileNotFoundError:
+        r = Rectangle(10, 5)
+        data = {'a': ['apple', 'a2dsaf3@##', 'a$fdw'],
+                'b': ['ball', 'black', 'basket'],
+                'c': ['cat', 'c!dsfera'],
+                'r': r
+                }
+        with open(fileName, 'wb') as f:
+            pickle.dump(data, f)
+            print('file {} not found! Pickle file created.'.format(fileName))
+    else:
+        if isinstance(data, dict):
+            for key in data:
+                print(data[key])
 
+
+if __name__ == "__main__":
+    main()

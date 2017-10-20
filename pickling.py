@@ -1,0 +1,41 @@
+"""
+pickling and unpickling or serialization and deserialization
+"""
+
+import pickle
+
+class Rectangle(object):
+	'''
+	Rectangle class	
+	'''
+	def __init__(self, len=1, width=1):
+		self.len = len
+		self.width = width
+		self.area = self.getArea()
+
+	def getArea(self):
+		return self.len * self.width
+
+	def __str__(self):
+		return "len: {0:.2f} width: {1:.2f} area: {2:.2f}".format(
+			self.len, self.width, self.area)
+
+
+try:
+	with open('binary.pickle', 'rb') as f:
+		data = pickle.load(f)
+except FileNotFoundError:
+	r = Rectangle(10, 5)
+	data = {'a': ['apple', 'a2dsaf3@##', 'a$fdw'],
+            'b': ['ball', 'black', 'basket'],
+            'c': ['cat', 'c!dsfera'],
+            'r': r
+            }
+	with open('binary.pickle', 'wb') as f:
+		pickle.dump(data, f)
+		print('pickle file created.')
+else:
+	if isinstance(data, dict):
+		for key in data:
+			print(data[key])
+

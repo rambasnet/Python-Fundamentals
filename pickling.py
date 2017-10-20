@@ -9,7 +9,7 @@ class Rectangle(object):
     Rectangle class	
     '''
     def __init__(self, length=1, width=1):
-        self.length = len
+        self.length = length
         self.width = width
         self.area = self.getArea()
 
@@ -38,7 +38,7 @@ def main():
                 }
         with open(fileName, 'wb') as f:
             pickle.dump(data, f)
-            print('file {} not found! Pickle file created.'.format(fileName))
+            print('file {0} not found! Pickle file {0} created.'.format(fileName))
     else:
         if isinstance(data, dict):
             for key in data:

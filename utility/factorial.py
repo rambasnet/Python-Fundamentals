@@ -49,17 +49,17 @@ def factorial(n):
         factor += 1
     return result
 
-def _test():
+def _test_factorial():
     assert factorial(1) == 1, "1! != 1"
     assert factorial(5) == 120, "5! != 120"
     assert factorial(20) == 2432902008176640000
     # factorial of -ve integer
     # factorial of non-integer
 
-def _test1():
+def _test1_factorial():
     import doctest
     doctest.testmod()
 
 if __name__ == "__main__":
-    #_test()
-    _test1()
+    #_test_factorial()
+    _test1_factorial()

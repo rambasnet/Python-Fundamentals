@@ -30,7 +30,7 @@ Ch11-Lists  ->               Chapter 11: Lists
 Ch12-Modules ->              Chapter 12: Modules - built-in and user-defined
 Ch13-Files ->                Chapter 13: Files - with, open, binary, urllib
 Ch15-OOP ->                  Chapter 15, 16, 21
-Ch23-Inheritance             Chapter 23
+Ch23-Inheritance             Chapter 23: Inheritance
 Ch19-Exceptions ->           Chapter 19: Exceptions
 Ch20-Dictionaries ->         Chapter 20: Dictionaries
     Dictionaries-Advanced -  zip(), OrderedDict

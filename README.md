@@ -34,9 +34,9 @@ Ch23-Inheritance             Chapter 23
 Ch19-Exceptions ->           Chapter 19: Exceptions
 Ch20-Dictionaries ->         Chapter 20: Dictionaries
     Dictionaries-Advanced -  zip(), OrderedDict
-Memoization ->               Optimizing recursive solutions
-Test ->                      Testing python codes
-SqliteDB - >                 Sqlite DB access with sqlite3
+Memoization -                Optimizing recursive solutions
+Test -                       Testing python codes
+SqliteDB -                   Sqlite DB access with sqlite3
 </pre>
 
 Status: Work-In-Progress

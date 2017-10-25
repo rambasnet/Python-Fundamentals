@@ -8,9 +8,9 @@ class FibTest(unittest.TestCase):
         self.fibSeq = [(1, 1), (2, 1), (3, 2), (10, 55), (20, 6765)]
         print('setUp executed...')
     
-
     def test1(self):
         print('test1')
+        # assertEqual is defined in TestCase class
         for n, val in self.fibSeq:
             self.assertEqual(fib(n), val)
         
@@ -20,7 +20,6 @@ class FibTest(unittest.TestCase):
         print('test2')
         # function name can be arbitrary but must start with test or
         # should be runTest
-        # assertEqual is defined in TestCase class
         self.assertEqual(fib(1), 1)
         self.assertEqual(fib(10), 55)
         self.assertEqual(fib(20), 6765)

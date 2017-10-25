@@ -33,7 +33,6 @@ def factorial(n):
         ...
     OverflowError: n too large
     """
-
     import math
 
     if n < 0:
@@ -48,6 +47,7 @@ def factorial(n):
         result *= factor
         factor += 1
     return result
+
 
 def _test_factorial():
     assert factorial(1) == 1, "1! != 1"

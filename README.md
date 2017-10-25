@@ -36,6 +36,7 @@ Ch20-Dictionaries ->         Chapter 20: Dictionaries
     Dictionaries-Advanced -  zip(), OrderedDict
 Memoization ->               Optimizing recursive solutions
 Test ->                      Testing python codes
+SqliteDB - >                 Sqlite DB access with sqlite3
 </pre>
 
 Status: Work-In-Progress

@@ -30,7 +30,7 @@ class FibTest(unittest.TestCase):
     
     def test3(self):
         print('test 3')
-        #self.assertAlmostEqual(22/7, 3.142857, 6)
+        self.assertAlmostEqual(22/7, 3.142857, 6)
         #self.assertEqual(22/7, 3.142857)
         pass
 

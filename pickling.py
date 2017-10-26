@@ -33,7 +33,7 @@ def main():
         r = Rectangle(10, 5)
         data = {'a': ['apple', 'a2dsaf3@##', 'a$fdw'],
                 'b': ['ball', 'black', 'basket'],
-                'c': ['cat', 'c!dsfera'],
+                'c': ('cat', 'c!dsfera'),
                 'r': r
                 }
         with open(fileName, 'wb') as f:
@@ -42,7 +42,7 @@ def main():
     else:
         if isinstance(data, dict):
             for key in data:
-                print(data[key])
+                print(key, '->', data[key])
 
 
 if __name__ == "__main__":

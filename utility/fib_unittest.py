@@ -1,4 +1,8 @@
 #! /usr/bin/env python3
+"""
+unittest for fib functions in fib.py module
+"""
+
 import unittest
 from fib import fib
 

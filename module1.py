@@ -10,7 +10,7 @@ answer = 42
 
 def areaOfCircle(radius):
     """
-        Given radius of a circle, finds and returns its area.
+    Given radius of a circle, finds and returns its area.
     """
     return math.pi*radius**2
 

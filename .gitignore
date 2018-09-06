@@ -108,3 +108,8 @@ venv.bak/
 .mypy_cache/
 .dmypy.json
 dmypy.json
+
+# others
+*.DS_Store
+*.pickle
+*.db

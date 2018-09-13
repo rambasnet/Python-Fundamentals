@@ -113,3 +113,5 @@ dmypy.json
 *.DS_Store
 *.pickle
 *.db
+.vscode/
+.ipynb_checkpoints/

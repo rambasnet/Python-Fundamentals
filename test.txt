@@ -1,0 +1,14 @@
+words
+=====
+apple
+ball
+cat
+dog
+elephant
+words
+=====
+apple
+ball
+cat
+dog
+elephant

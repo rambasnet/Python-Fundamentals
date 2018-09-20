@@ -115,3 +115,5 @@ dmypy.json
 *.db
 .vscode/
 .ipynb_checkpoints/
+*.pickle
+__pycache__/

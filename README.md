@@ -38,5 +38,3 @@ Memoization -                Optimizing recursive solutions
 Test -                       Testing python codes
 SqliteDB -                   Sqlite DB access with sqlite3
 </pre>
-
-Status: Work-In-Progress

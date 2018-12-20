@@ -1,16 +1,16 @@
-# thinkpythonnotebooks
+# thinkpython jupyter notebooks
+
 <h1>How to Think Like a Computer Scientist </h1>
 
 <h2>
 Learning with Python3 using Jupyter Notebook (interactive notebook) and pythontutor.com (code visualization)
 </h2>
-<h3> by Ram Basnet </h3>
 
 Based on Learning with Python 3 by Peter Wentworth, Jeffrey Elkner, Allen B. Downey, and Chris Meyers and Think Python - How to Think Like a Computer Scientist 2nd edition by Jeffrey Elkner, Allen B. Downey, and Chris Meyers
 
 http://openbookproject.net/thinkcs/python/english3e/index.html
 
-Notebook mapping with corresponding chapter
+Notebook mapping with corresponding chapter:
 
 <pre>
 Notebook ->                  Think Python3 Textbook 
@@ -19,7 +19,7 @@ Ch1-Intro ->                 Chapter 1: The way of the program
 Ch2-Data-Variables ->        Chapter 2: Variables, expressions, and statements
 Ch4-Functions ->             Chapter 4 and 6: Functions and Fruitful functions
     Functions-Built-in -     Examples of some built-in functions
-    Functions-Lambda -       Lambda functions, map(), reduce(), filter()
+    Functions-Lambda -       Lambda functions, map, reduce, filter
     Functions-Recursion ->   Chapter 18: Recursion
 Ch5-Conditionals ->          Chapter 5: Conditionals
 Ch7-Iterations ->            Chapter 7: Iteration - for and while loops
@@ -34,7 +34,62 @@ Ch23-Inheritance             Chapter 23: Inheritance
 Ch19-Exceptions ->           Chapter 19: Exceptions
 Ch20-Dictionaries ->         Chapter 20: Dictionaries
     Dictionaries-Advanced -  zip(), OrderedDict
-Memoization -                Optimizing recursive solutions
-Test -                       Testing python codes
-SqliteDB -                   Sqlite DB access with sqlite3
+Ch21-Memoization-
+    Optimizaion-
+    TimeComplexity-               Optimizing recursive solutions
+Ch22-UnitTest-                       Unit testing python codes
+Ch23-SqliteDB-                   Sqlite DB access with sqlite3
 </pre>
+
+## Who can use these notebooks
+
+### University and High-school Coding Instructors
+
+    Depending on the course level and topics covered, intructors can pick and choose appropriate chapters. E.g., we've used Chapter 1 - 15 (skipping some chapters such as as Functions-Lambda) in Beginning programing 3-credit university courses (CS0 and CS1) where students have no prior experience to programming. On the otherhand, we've used all the chapters for advanced programing courses where students have some prior programming experiences in Python or other programming languages (CS1, CS2 level).
+
+### Self learners
+
+    Depending on their skill and interest level, learners can move as swiftly as appropairate through the chapters. Try solving some exercises towards the end of each chpater before moving on for self assessment of the mastery of the materails.
+
+## How to use these notebooks
+
+### Important:
+
+    Inorder to learn coding, it's very important to actually type code on your own from scratch and NOT copy paste! You can run provided cells to see the output, follow along and learn from it but it's important that you either start a new jupyter notebook or add cells and write your own code from scratch to practice the concepts covered with many similar examples and solve the exercises provided.
+
+### Online service:
+
+    If you do not want to install development environment on a persoanl computer, you can launch an interactive session using the Binder service: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/rambasnet/thinkpythonnotebooks/master)
+
+### On a local system:
+
+    To run these notebooks interactvely and save your work locally, you need <a href="https://www.python.org/" target="_blank">Python 3</a> and <a href="http://jupyter.org/" target="_blank"> Jupyter Notebook </a> -- an interactive web-based editor that allows you to create and share documents that contain live code and data. Anaconda or Miniconda is the best way to install Python and other packages on all modern platforms.
+
+#### Installing via Anaconda or Miniconda
+
+    Anaconda or Miniconda has Python 3 and many other packages that you can easily install on any platform (Windows, Linux, and Mac). First, install Anaconda: http://docs.continuum.io/anaconda/install/ or Miniconda https://conda.io/docs/user-guide/install/index.html
+
+    After installing anaconda or miniconda, open a terminal and run the following commands:
+    <code>
+    conda update conda
+    conda install jupyter
+    </code>
+
+#### Running the notebook server
+
+    Once Python 3 and Jupyter Notebook are installed, open a terminal change working directory using cd command to go into the folder where this repo is cloned and run the notebook from there:
+    <code>
+    cd <directory where this repo is cloned>
+    jupyter notebook
+    </code>
+    This will start a Jupyter session in your browser. Open a chapter, and start coding...
+
+## Contribute to this project
+
+We'll be glad if you'd like to contribute to this projects. Contributions are accepted via pull requests. You can also open issues on bugs, typos or any corrections and suggest improvements on the notebooks.
+
+## Copyright and License
+
+(c) 2018 Ram B. Basnet, T. Doleck. All content is under MIT License. See LICENSE file for details.
+
+Please feel free to use the content anyway you find it useful.

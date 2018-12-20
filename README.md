@@ -53,16 +53,16 @@ Depending on their skill and interest level, learners can move as swiftly as app
 
 ## How to use these notebooks
 
-### Important:
+### Important
 
 Inorder to learn coding, it's very important to actually type code on your own from scratch and NOT copy paste! You can run provided cells to see the output, follow along and learn from it but it's important that you either start a new jupyter notebook or add cells and write your own code from scratch to practice the concepts covered with many similar examples and solve the exercises provided.
 
-### Online service:
+### Online service
 
 If you do not want to install development environment on a persoanl computer, you can launch an interactive session using the Binder service:
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/rambasnet/thinkpythonnotebooks/master)
 
-### On a local system:
+### On a local system
 
 To run these notebooks interactvely and save your work locally, you need <a href="https://www.python.org/" target="_blank">Python 3</a> and <a href="http://jupyter.org/" target="_blank"> Jupyter Notebook </a> -- an interactive web-based editor that allows you to create and share documents that contain live code and data. Anaconda or Miniconda is the best way to install Python and other packages on all modern platforms.
 

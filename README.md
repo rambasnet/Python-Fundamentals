@@ -1,10 +1,10 @@
-# thinkpython jupyter notebooks
+# Think Python Jupyter Notebooks
 
-<h1>How to Think Like a Computer Scientist </h1>
+<h2>How to Think Like a Computer Scientist </h2>
 
-<h2>
+<h3>
 Learning with Python3 using Jupyter Notebook (interactive notebook) and pythontutor.com (code visualization)
-</h2>
+</h3>
 
 Based on Learning with Python 3 by Peter Wentworth, Jeffrey Elkner, Allen B. Downey, and Chris Meyers and Think Python - How to Think Like a Computer Scientist 2nd edition by Jeffrey Elkner, Allen B. Downey, and Chris Meyers
 
@@ -45,44 +45,44 @@ Ch23-SqliteDB-                   Sqlite DB access with sqlite3
 
 ### University and High-school Coding Instructors
 
-    Depending on the course level and topics covered, intructors can pick and choose appropriate chapters. E.g., we've used Chapter 1 - 15 (skipping some chapters such as as Functions-Lambda) in Beginning programing 3-credit university courses (CS0 and CS1) where students have no prior experience to programming. On the otherhand, we've used all the chapters for advanced programing courses where students have some prior programming experiences in Python or other programming languages (CS1, CS2 level).
+Depending on the course level and topics covered, intructors can pick and choose appropriate chapters. E.g., we've used Chapter 1 - 15 (skipping some chapters such as as Functions-Lambda) in Beginning programing 3-credit university courses (CS0 and CS1) where students have no prior experience to programming. On the otherhand, we've used all the chapters for advanced programing courses where students have some prior programming experiences in Python or other programming languages (CS1, CS2 level).
 
 ### Self learners
 
-    Depending on their skill and interest level, learners can move as swiftly as appropairate through the chapters. Try solving some exercises towards the end of each chpater before moving on for self assessment of the mastery of the materails.
+Depending on their skill and interest level, learners can move as swiftly as appropairate through the chapters. Try solving some exercises towards the end of each chpater before moving on for self assessment of the mastery of the materails.
 
 ## How to use these notebooks
 
 ### Important:
 
-    Inorder to learn coding, it's very important to actually type code on your own from scratch and NOT copy paste! You can run provided cells to see the output, follow along and learn from it but it's important that you either start a new jupyter notebook or add cells and write your own code from scratch to practice the concepts covered with many similar examples and solve the exercises provided.
+Inorder to learn coding, it's very important to actually type code on your own from scratch and NOT copy paste! You can run provided cells to see the output, follow along and learn from it but it's important that you either start a new jupyter notebook or add cells and write your own code from scratch to practice the concepts covered with many similar examples and solve the exercises provided.
 
 ### Online service:
 
-    If you do not want to install development environment on a persoanl computer, you can launch an interactive session using the Binder service: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/rambasnet/thinkpythonnotebooks/master)
+If you do not want to install development environment on a persoanl computer, you can launch an interactive session using the Binder service:
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/rambasnet/thinkpythonnotebooks/master)
 
 ### On a local system:
 
-    To run these notebooks interactvely and save your work locally, you need <a href="https://www.python.org/" target="_blank">Python 3</a> and <a href="http://jupyter.org/" target="_blank"> Jupyter Notebook </a> -- an interactive web-based editor that allows you to create and share documents that contain live code and data. Anaconda or Miniconda is the best way to install Python and other packages on all modern platforms.
+To run these notebooks interactvely and save your work locally, you need <a href="https://www.python.org/" target="_blank">Python 3</a> and <a href="http://jupyter.org/" target="_blank"> Jupyter Notebook </a> -- an interactive web-based editor that allows you to create and share documents that contain live code and data. Anaconda or Miniconda is the best way to install Python and other packages on all modern platforms.
 
 #### Installing via Anaconda or Miniconda
 
-    Anaconda or Miniconda has Python 3 and many other packages that you can easily install on any platform (Windows, Linux, and Mac). First, install Anaconda: http://docs.continuum.io/anaconda/install/ or Miniconda https://conda.io/docs/user-guide/install/index.html
+Anaconda or Miniconda has Python 3 and many other packages that you can easily install on any platform (Windows, Linux, and Mac). First, install Anaconda: http://docs.continuum.io/anaconda/install/ or Miniconda https://conda.io/docs/user-guide/install/index.html
 
-    After installing anaconda or miniconda, open a terminal and run the following commands:
-    <code>
+After installing anaconda or miniconda, open a terminal and run the following commands:
+
     conda update conda
     conda install jupyter
-    </code>
 
 #### Running the notebook server
 
-    Once Python 3 and Jupyter Notebook are installed, open a terminal change working directory using cd command to go into the folder where this repo is cloned and run the notebook from there:
-    <code>
+Once Python 3 and Jupyter Notebook are installed, open a terminal change working directory using cd command to go into the folder where this repo is cloned and run the notebook from there:
+
     cd <directory where this repo is cloned>
     jupyter notebook
-    </code>
-    This will start a Jupyter session in your browser. Open a chapter, and start coding...
+
+This will start a Jupyter session in your browser. Open a chapter, and start coding...
 
 ## Contribute to this project
 

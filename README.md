@@ -15,7 +15,7 @@ Notebook mapping with corresponding chapter:
 <pre>
 Notebook ->                  Think Python3 Textbook 
 ==========================   ============================================== 
-Ch1-Intro ->                 Chapter 1: The way of the program
+Chapter 1 -                  Chapter 1: The way of the program
 Ch2-Data-Variables ->        Chapter 2: Variables, expressions, and statements
 Ch4-Functions ->             Chapter 4 and 6: Functions and Fruitful functions
     Functions-Built-in -     Examples of some built-in functions
@@ -26,14 +26,15 @@ Ch7-Iterations ->            Chapter 7: Iteration - for and while loops
 Ch8-Strings ->               Chapter 8: Strings
 Ch9-Tuples ->                Chapter 9: Tuples
 Ch11-Lists  ->               Chapter 11: Lists
-    Lists-Advanced ->        List comprehension
+Ch11-Lists2-Advanced -       List comprehension
 Ch12-Modules ->              Chapter 12: Modules - built-in and user-defined
 Ch13-Files ->                Chapter 13: Files - with, open, binary, urllib
-Ch15-OOP ->                  Chapter 15, 16, 21
+Ch15-OOP ->                  Chapter 15, 16
+Ch16-OOP-Polymorphism ->     Chapter 21 
 Ch23-Inheritance             Chapter 23: Inheritance
 Ch19-Exceptions ->           Chapter 19: Exceptions
 Ch20-Dictionaries ->         Chapter 20: Dictionaries
-    Dictionaries-Advanced -  zip(), OrderedDict
+Ch20-Dictionaries-Advanced -  zip(), OrderedDict
 Ch21-Memoization-
     Optimizaion-
     TimeComplexity-               Optimizing recursive solutions
@@ -45,7 +46,7 @@ Ch23-SqliteDB-                   Sqlite DB access with sqlite3
 
 ### University and High-school Coding Instructors
 
-Depending on the course level and topics covered, intructors can pick and choose appropriate chapters. E.g., we've used Chapter 1 - 15 (skipping some chapters such as as Functions-Lambda) in Beginning programing 3-credit university courses (CS0 and CS1) where students have no prior experience to programming. On the otherhand, we've used all the chapters for advanced programing courses where students have some prior programming experiences in Python or other programming languages (CS1, CS2 level).
+Depending on the course level and topics covered, intructors can pick and choose appropriate chapters. E.g., we've used Chapter 1 - 15 (skipping some chapters such as as Functions-Lambda) in Beginning programing 3/4-credit university courses (CS0 and CS1) where students have no prior experience to programming. On the otherhand, we've also used all the chapters for 2-credit advanced programing courses where students have some prior programming experiences in Python or other programming languages (CS1, CS2 level).
 
 ### Self learners
 
@@ -64,7 +65,7 @@ If you do not want to install development environment on a persoanl computer, yo
 
 ### On a local system
 
-To run these notebooks interactvely and save your work locally, you need <a href="https://www.python.org/" target="_blank">Python 3</a> and <a href="http://jupyter.org/" target="_blank"> Jupyter Notebook </a> -- an interactive web-based editor that allows you to create and share documents that contain live code and data. Anaconda or Miniconda is the best way to install Python and other packages on all modern platforms.
+To run these notebooks interactvely and save your work locally, you need <a href="https://www.python.org/" target="_blank">Python 3</a> and <a href="http://jupyter.org/" target="_blank"> Jupyter Notebook </a> -- an interactive web-based editor that allows you to create and share documents that contain live code and data. Anaconda or Miniconda is the recommended way to install Python and other packages on all modern platforms.
 
 #### Installing via Anaconda or Miniconda
 
@@ -84,12 +85,12 @@ Once Python 3 and Jupyter Notebook are installed, open a terminal change working
 
 This will start a Jupyter session in your browser. Open a chapter, and start coding...
 
-## Contribute to this project
+## Contributing
 
-We'll be glad if you'd like to contribute to this projects. Contributions are accepted via pull requests. You can also open issues on bugs, typos or any corrections and suggest improvements on the notebooks.
+We'd be glad if you'd like to contribute to this project. Contributions are accepted via pull requests. You can also open issues on bugs, typos or any corrections and suggest improvements on the notebooks.
 
 ## Copyright and License
 
-(c) 2018 Ram B. Basnet, T. Doleck. All content is under MIT License. See LICENSE file for details.
+&copy; 2018 Ram B. Basnet, T. Doleck. All content is under MIT License. See LICENSE file for details.
 
 Please feel free to use the content anyway you find it useful.

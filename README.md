@@ -10,41 +10,39 @@ Based on Learning with Python 3 by Peter Wentworth, Jeffrey Elkner, Allen B. Dow
 
 http://openbookproject.net/thinkcs/python/english3e/index.html
 
-Notebook mapping with corresponding chapter:
+Notebook mapping with corresponding book chapter:
 
-<table>
-    <tr>
-        <th>Notebook -></th>              <th>Think Python3 Textbook</th>
-    </tr>
-    <tr>
-        <td>Ch01-Introduction </td>                <td>Chapter 1: The way of the program</td>
-    </tr>
-</table>
-Ch02-Data-Variables ->               Chapter 2: Variables, expressions, and statements
-Ch03-1-Functions-Built-in ->         Examples of some built-in functions
-Ch03-2Functions-UserDefined ->       Chapter 4 and 6: Functions and Fruitful functions
-    Functions-Lambda -               Lambda functions, map, reduce, filter
-    Functions-Recursion ->      Chapter 18: Recursion
-Ch04-Conditionals ->            Chapter 5: Conditionals
-Ch05-Iterations ->              Chapter 7: Iteration - for and while loops
-Ch06-Strings ->                 Chapter 8: Strings
-Ch07-Tuples ->                  Chapter 9: Tuples
-Ch08-1-Lists ->                 Chapter 11: Lists
-Ch08-2-Lists-Comprehension-Lambda -          List comprehension
-Ch12-Modules ->              Chapter 12: Modules - built-in and user-defined
-Ch13-Files ->                Chapter 13: Files - with, open, binary, urllib
-Ch15-OOP ->                  Chapter 15, 16
-Ch16-OOP-Polymorphism ->     Chapter 21 
-Ch23-Inheritance             Chapter 23: Inheritance
-Ch19-Exceptions ->           Chapter 19: Exceptions
-Ch20-Dictionaries ->         Chapter 20: Dictionaries
-Ch20-Dictionaries-Advanced -  zip(), OrderedDict
-Ch21-Memoization-
-    Optimizaion-
-    TimeComplexity-               Optimizing recursive solutions
-Ch22-UnitTest-                       Unit testing python codes
-Ch23-SqliteDB-                   Sqlite DB access with sqlite3
-</pre>
+| Notebook -> | Think Python3 Textbook |
+| ------------|-------|
+| Ch01-Introduction | Chapter 1: The way of the program |
+| Ch02-Data-Variables | Chapter 2: Variables, expressions, and statements |
+| Ch03-1-Functions-Built-in | Examples of some built-in functions |
+| Ch03-2Functions-UserDefined | Chapter 4 and 6: Functions and Fruitful functions |              
+| Ch04-Conditionals | Chapter 5: Conditionals |
+| Ch05-Iterations | Chapter 7: Iteration - for and while loops |
+| Ch06-Strings | Chapter 8: Strings |
+| Ch07-Tuples | Chapter 9: Tuples |
+| Ch08-1-Lists | Chapter 11: Lists |
+| Ch08-2-Lists-Comprehension-Lambda | List comprehension, Lambda functions, map, reduce, filter |
+| Ch09-1-Dictionaries| Chapter 20: Dictionaries |
+| Ch09-2-Dictionaries-Advanced | zip, OrderedDict |               
+| Ch10-Files | Chapter 13: Files - with, open, binary, urllib |
+| Ch11-Turtles-Events | Chapter 3 & 10 |
+| Ch12-Modules | Chapter 12: Modules - built-in and user-defined |            
+| Ch13-Recursion | Chapter 18: Recursion
+| Ch14-OOP | Chapter 15, 16 Classes and Basics      
+| Ch15-Overloading-Polymorphism | Chapter 21 and 22 | 
+| Ch16-Exceptions | Chapter 19 Exceptions
+| Ch17-PyGame | Chapter 17 PyGame
+| Ch18-Inheritence | Chapter 23 Inheritence |
+| Ch19-UnitTest | UnitTest framework |
+| Ch20-Memoization-Optimization | Basics of Dynamic Programming |
+| Ch21-SqliteDB | Intro to Sqlite3 Database |
+| Ch22-LinkedLists | Chapter 24 Linked Lists |
+| Ch23-Stacks | Chapter 25 Stacks |
+| Ch24-Queues | Chapter 26 Queues |
+| Ch25-Trees | Chapter 27 Trees |
+
 
 ## Who can use these notebooks
 

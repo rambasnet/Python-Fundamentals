@@ -12,21 +12,25 @@ http://openbookproject.net/thinkcs/python/english3e/index.html
 
 Notebook mapping with corresponding chapter:
 
-<pre>
-Notebook ->                  Think Python3 Textbook 
-==========================   ============================================== 
-Chapter 1 -                  Chapter 1: The way of the program
-Ch2-Data-Variables ->        Chapter 2: Variables, expressions, and statements
-Ch4-Functions ->             Chapter 4 and 6: Functions and Fruitful functions
-    Functions-Built-in -     Examples of some built-in functions
-    Functions-Lambda -       Lambda functions, map, reduce, filter
-    Functions-Recursion ->   Chapter 18: Recursion
-Ch5-Conditionals ->          Chapter 5: Conditionals
-Ch7-Iterations ->            Chapter 7: Iteration - for and while loops
-Ch8-Strings ->               Chapter 8: Strings
-Ch9-Tuples ->                Chapter 9: Tuples
-Ch11-Lists  ->               Chapter 11: Lists
-Ch11-Lists2-Advanced -       List comprehension
+<table>
+    <tr>
+        <th>Notebook -></th>              <th>Think Python3 Textbook</th>
+    </tr>
+    <tr>
+        <td>Ch01-Introduction </td>                <td>Chapter 1: The way of the program</td>
+    </tr>
+    
+Ch02-Data-Variables ->               Chapter 2: Variables, expressions, and statements
+Ch03-1-Functions-Built-in ->         Examples of some built-in functions
+Ch03-2Functions-UserDefined ->       Chapter 4 and 6: Functions and Fruitful functions
+    Functions-Lambda -               Lambda functions, map, reduce, filter
+    Functions-Recursion ->      Chapter 18: Recursion
+Ch04-Conditionals ->            Chapter 5: Conditionals
+Ch05-Iterations ->              Chapter 7: Iteration - for and while loops
+Ch06-Strings ->                 Chapter 8: Strings
+Ch07-Tuples ->                  Chapter 9: Tuples
+Ch08-1-Lists ->                 Chapter 11: Lists
+Ch08-2-Lists-Comprehension-Lambda -          List comprehension
 Ch12-Modules ->              Chapter 12: Modules - built-in and user-defined
 Ch13-Files ->                Chapter 13: Files - with, open, binary, urllib
 Ch15-OOP ->                  Chapter 15, 16

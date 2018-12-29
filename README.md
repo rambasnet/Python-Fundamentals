@@ -19,7 +19,7 @@ Notebook mapping with corresponding chapter:
     <tr>
         <td>Ch01-Introduction </td>                <td>Chapter 1: The way of the program</td>
     </tr>
-    
+</table>
 Ch02-Data-Variables ->               Chapter 2: Variables, expressions, and statements
 Ch03-1-Functions-Built-in ->         Examples of some built-in functions
 Ch03-2Functions-UserDefined ->       Chapter 4 and 6: Functions and Fruitful functions

@@ -1,14 +1,7 @@
-# Think Python Jupyter Notebooks
+# FDS Python: Fundamentals and Data Structures with Python
 
-<h2>How to Think Like a Computer Scientist </h2>
-
-<h3>
-Learning with Python3 using Jupyter Notebook (interactive notebook) and pythontutor.com (code visualization)
-</h3>
-
-Based on Learning with Python 3 by Peter Wentworth, Jeffrey Elkner, Allen B. Downey, and Chris Meyers and Think Python - How to Think Like a Computer Scientist 2nd edition by Jeffrey Elkner, Allen B. Downey, and Chris Meyers
-
-http://openbookproject.net/thinkcs/python/english3e/index.html
+Based on Learning with Python 3 by Peter Wentworth, Jeffrey Elkner, Allen B. Downey, and Chris Meyers 
+(http://openbookproject.net/thinkcs/python/english3e/index.html)
 
 Notebook mapping with corresponding book chapter:
 
@@ -62,7 +55,7 @@ Inorder to learn coding, it's very important to actually type code on your own f
 
 ### Online service
 
-If you do not want to install development environment on a persoanl computer, you can launch an interactive session using the Binder service:
+You can launch an interactive session of this project using online Binder service:
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/rambasnet/thinkpythonnotebooks/master)
 
 ### On a local system
@@ -89,7 +82,7 @@ This will start a Jupyter session in your browser. Open a chapter, and start cod
 
 ## Contributing
 
-We'd be glad if you'd like to contribute to this project. Contributions are accepted via pull requests. You can also open issues on bugs, typos or any corrections and suggest improvements on the notebooks.
+Contributions are accepted via pull requests. You can also open issues on bugs, typos or any corrections and suggest improvements on the notebooks.
 
 ## Copyright and License
 
@@ -97,4 +90,4 @@ We'd be glad if you'd like to contribute to this project. Contributions are acce
 under the terms of the GNU Free Documentation License, Version 1.3
 or any later version published by the Free Software Foundation. See LICENSE file for details.
 
-Please feel free to use the content anyway you find it useful.
+Please feel free to use the notebooks anyway you find it useful.

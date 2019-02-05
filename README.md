@@ -41,17 +41,17 @@ Notebook mapping with corresponding book chapter:
 
 ### University and High-school Coding Instructors
 
-Depending on the course level and topics covered, intructors can pick and choose appropriate chapters. E.g., we've used Chapter 1 - 15 (skipping some chapters such as as Functions-Lambda) in Beginning programing 3/4-credit university courses (CS0 and CS1) where students have no prior experience to programming. On the otherhand, we've also used all the chapters for 2-credit advanced programing courses where students have some prior programming experiences in Python or other programming languages (CS1, CS2 level).
+Depending on the course level and topics covered, instructors can pick and choose appropriate chapters. E.g., we've used Chapter 1 - 15 (skipping some chapters such as Functions-Lambda) in Beginning programing 3/4-credit university courses (CS0 and CS1) where students have no prior experience to programming. On the other hand, we've also used all the chapters for 2-credit advanced programing courses where students have some prior programming experiences in Python or other programming languages (CS1, CS2 level).
 
 ### Self learners
 
-Depending on their skill and interest level, learners can move as swiftly as appropairate through the chapters. Try solving some exercises towards the end of each chpater before moving on for self assessment of the mastery of the materails.
+Depending on their skill and interest level, learners can move as swiftly as appropriate through the chapters. Try solving some exercises towards the end of each chapter before moving on for self-assessment of the mastery of the materials.
 
 ## How to use these notebooks
 
 ### Important
 
-Inorder to learn coding, it's very important to actually type code on your own from scratch and NOT copy paste! You can run provided cells to see the output, follow along and learn from it but it's important that you either start a new jupyter notebook or add cells and write your own code from scratch to practice the concepts covered with many similar examples and solve the exercises provided.
+In order to learn coding, it's very important to actually type code on your own from scratch and NOT copy paste! You can run provided cells to see the output, follow along and learn from it but it's important that you either start a new notebook or add cells and write your own code from scratch to practice the concepts covered with many similar examples and solve the exercises provided.
 
 ### Online service
 
@@ -60,7 +60,7 @@ You can launch an interactive session of this project using online Binder servic
 
 ### On a local system
 
-To run these notebooks interactvely and save your work locally, you need <a href="https://www.python.org/" target="_blank">Python 3</a> and <a href="http://jupyter.org/" target="_blank"> Jupyter Notebook </a> -- an interactive web-based editor that allows you to create and share documents that contain live code and data. Anaconda or Miniconda is the recommended way to install Python and other packages on all modern platforms.
+To run these notebooks interactively and save your work locally, you need <a href="https://www.python.org/" target="_blank">Python 3</a> and <a href="http://jupyter.org/" target="_blank"> Jupyter Notebook </a> -- an interactive web-based editor that allows you to create and share documents that contain live code and data. Anaconda or Miniconda is the recommended way to install Python and other packages on all modern platforms.
 
 #### Installing via Anaconda or Miniconda
 

@@ -27,8 +27,8 @@ Notebook mapping with corresponding book chapter:
 | Ch15-Overloading-Polymorphism | Chapter 21 and 22 | 
 | Ch16-Exceptions | Chapter 19 Exceptions
 | Ch17-PyGame | Chapter 17 PyGame
-| Ch18-Inheritence | Chapter 23 Inheritence |
-| Ch19-UnitTest | UnitTest framework |
+| Ch18-Inheritence | Chapter 23 Inheritance |
+| Ch19-UnitTest | UnitTest Framework |
 | Ch20-Memoization-Optimization | Basics of Dynamic Programming |
 | Ch21-SqliteDB | Intro to Sqlite3 Database |
 | Ch22-LinkedLists | Chapter 24 Linked Lists |

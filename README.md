@@ -10,7 +10,7 @@ Notebook mapping with corresponding book chapter:
 | Ch01-Introduction | Chapter 1: The way of the program |
 | Ch02-Data-Variables | Chapter 2: Variables, expressions, and statements |
 | Ch03-1-Functions-Built-in | Examples of some built-in functions |
-| Ch03-2Functions-UserDefined | Chapter 4 and 6: Functions and Fruitful functions |              
+| Ch03-2-Functions-UserDefined | Chapter 4 and 6: Functions and Fruitful functions |              
 | Ch04-Conditionals | Chapter 5: Conditionals |
 | Ch05-Iterations | Chapter 7: Iteration - for and while loops |
 | Ch06-Strings | Chapter 8: Strings |

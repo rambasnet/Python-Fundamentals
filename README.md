@@ -69,7 +69,7 @@ Anaconda or Miniconda has Python 3 and many other packages that you can easily i
 After installing anaconda or miniconda, open a terminal and run the following commands:
 
     conda update conda
-    conda install jupyter
+    conda install notebook
 
 #### Running the notebook server
 

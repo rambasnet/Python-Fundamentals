@@ -8,6 +8,7 @@ import module2
 question = "What is the meaning of Life, the Universe, and Everything?"
 answer = 42
 
+
 def areaOfCircle(radius):
     """
     Given radius of a circle, finds and returns its area.
@@ -15,7 +16,8 @@ def areaOfCircle(radius):
     return math.pi*radius**2
 
 
-print(question)
-print(answer)
-area = areaOfCircle(3)
-print("area = {:.2f}".format(area))
+if __name__ == '__main__':
+    print(question)
+    print(answer)
+    area = areaOfCircle(3)
+    print("area = {:.2f}".format(area))

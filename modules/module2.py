@@ -3,10 +3,11 @@ This is module 2. Defines question, answer and
 circumference function
 """
 import math
-import module1
+#import module1
 
 question = "What is your quest?"
 answer = "To seek the holy grail."
+
 
 def circumference(radius):
     """
@@ -14,6 +15,8 @@ def circumference(radius):
     """
     return math.pi*radius*2
 
-print(question)
-print(answer)
-print("circumference = {:.2f}".format(circumference(3)))
+
+if __name__ == '__main__':
+    print(question)
+    print(answer)
+    print("circumference = {:.2f}".format(circumference(3)))

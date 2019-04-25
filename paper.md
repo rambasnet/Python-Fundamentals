@@ -25,7 +25,7 @@ bibliography: paper.bib
 
 FDS Python is a set of Jupyter notebooks that covers fundamental concepts of programming and data structures using Python. These interactive notebooks are based on the open-source textbook: Think Python: How to Think Like a Computer Scientist (http://openbookproject.net/thinkcs/python/english3e/index.html#) [@Wentworth2012]. The notebooks consist of a summary of the theory/lecture notes and syntax of concepts along with interactive code examples. The notebooks provide coverage from the basic programming concepts to data structures and popular libraries such as turtle, pygame, sqlite3, etc. The mapping of notebook chapters with the textbook chapters is provided in the README.md file.
 
-These notebooks are designed to accommodate beginners as well as experienced programmers who are interested in learning to code in Python. More importantly, the interactive nature of these notebooks force students to code to learn and not learn to code. Pythontutor (http://pythontutor.com) [@Guo2013]) is used to help students visualize and understand the concepts better by working on problems from open.kattis.com (https://open.kattis.com/) [@Basnet2018] where appropriate.
+These notebooks are designed to accommodate beginners as well as experienced programmers who are interested in learning to code in Python. More importantly, the interactive nature of these notebooks force students to code to learn and not learn to code. Pythontutor (http://pythontutor.com) [@Guo2013] is used to help students visualize and understand the concepts better by working on problems from open.kattis.com (https://open.kattis.com/) [@Basnet2018] where appropriate.
 
 # Statement of need
 

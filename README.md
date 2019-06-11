@@ -1,6 +1,6 @@
 # FDS Python: Fundamentals and Data Structures with Python
 
-Based on How to Think Like a Computer Scientist: Learning with Python 3 (RLE) and Learning with Python 3 by Peter Wentworth, Jeffrey Elkner, Allen B. Downey, and Chris Meyers 
+Based on How to Think Like a Computer Scientist: Learning with Python 3 (RLE) by Peter Wentworth, Jeffrey Elkner, Allen B. Downey, and Chris Meyers 
 (http://openbookproject.net/thinkcs/python/english3e/index.html)
 
 Notebook mapping with corresponding book chapter:

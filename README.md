@@ -57,7 +57,7 @@ In order to learn coding, it's very important to actually type code on your own 
 ### Online service
 
 You can launch an interactive session of this project using online Binder service:
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/rambasnet/thinkpythonnotebooks/master)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/rambasnet/thinkpythonnotebooks/master) or Google's Colab: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com)
 
 ### On a local system
 

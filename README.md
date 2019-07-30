@@ -3,6 +3,8 @@
 Based on How to Think Like a Computer Scientist: Learning with Python 3 (RLE) by Peter Wentworth, Jeffrey Elkner, Allen B. Downey, and Chris Meyers 
 (http://openbookproject.net/thinkcs/python/english3e/index.html)
 
+Some new chapters have been added and some existing chapters have been slightly reorganized.
+
 ## Notebook mapping with corresponding book chapter
 
 | Notebook -> | Think Python3 Textbook |
@@ -80,7 +82,7 @@ Once Python 3 and Jupyter Notebook are installed, open a terminal change working
     cd <directory where this repo is cloned>
     jupyter notebook
 
-This will start a Jupyter session in your browser. Open a chapter, and start coding...
+This will start a Jupyter session in your browser. Open Ch00-TableOfContents notebook and start there or open any chapter, and start coding...
 
 ## Contributing
 

@@ -3,10 +3,11 @@
 Based on How to Think Like a Computer Scientist: Learning with Python 3 (RLE) by Peter Wentworth, Jeffrey Elkner, Allen B. Downey, and Chris Meyers 
 (http://openbookproject.net/thinkcs/python/english3e/index.html)
 
-Notebook mapping with corresponding book chapter:
+## Notebook mapping with corresponding book chapter
 
 | Notebook -> | Think Python3 Textbook |
 | ------------|-------|
+| Ch00-TableOfContents | Start here |
 | Ch01-Introduction | Chapter 1: The way of the program |
 | Ch02-Data-Variables | Chapter 2: Variables, expressions, and statements |
 | Ch03-1-Functions-Built-in | Examples of some built-in functions |

@@ -94,6 +94,6 @@ Contributions are accepted via pull requests. You can also open issues on bugs, 
 
 ## Copyright and License
 
-&copy; 2019 Ram B. Basnet and T. Doleck. Permission is granted to copy, distribute and/or modify this document
+&copy; 2019 Ram Basnet and T. Doleck. Permission is granted to copy, distribute and/or modify this document
 under the terms of the GNU Free Documentation License, Version 1.3
 or any later version published by the Free Software Foundation. See LICENSE file for details.

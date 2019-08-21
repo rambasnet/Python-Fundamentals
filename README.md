@@ -2,7 +2,7 @@
 
 These jupyter notebooks are based on open-source textbook How to Think Like a Computer Scientist: Learning with Python 3 (RLE) by Peter Wentworth, Jeffrey Elkner, Allen B. Downey, and Chris Meyers found online [here](http://openbookproject.net/thinkcs/python/english3e/index.html).
 
-The primary goal of these notebooks is to help instructors easily adopt the open-source textbook to teach programming and problem solving using Python in an interactive and hands-on approach (a.k.a. learning-by-doing). Some new chapters with new and importanct concepts and topics have been added and some existing chapters have been slightly reordered. These notebooks primarily consist of outlines of theoritical concepts, kewwords and definitions along with code, [code visualization](https://pythontutor.com) compounded by interesting and challenging [intercollegiate programming contests problems](https://open.kattis.com) where applicable to help students engaged in challenging concepts of coding and problem solving.
+The primary goal of these notebooks is to help instructors easily adopt the open-source textbook to teach programming and problem solving using Python in an interactive and hands-on approach (a.k.a. learning-by-doing). Some new chapters with new and importanct concepts and topics have been added and some existing chapters have been slightly reordered. These notebooks primarily consist of outlines of theoritical concepts, kewwords and definitions along with code, [code visualization](https://pythontutor.com) compounded by interesting and challenging [intercollegiate programming contests problems](https://open.kattis.com) where applicable to help students engage in challenging concepts of coding and problem solving.
 
 See paper.md for statement of need.
 

@@ -68,7 +68,7 @@ To run these notebooks interactively and save your work locally, you need <a hre
 
 #### Installing via Anaconda or Miniconda
 
-Anaconda or Miniconda has Python 3 and many other packages that you can easily install on any platform (Windows, Linux, and Mac). First, install Anaconda: http://docs.continuum.io/anaconda/install/ or Miniconda https://conda.io/docs/user-guide/install/index.html
+Anaconda or Miniconda has Python 3 and many other packages that you can easily install on any platform (Windows, Linux, and Mac). First, install Anaconda: http://docs.continuum.io/anaconda/install/ or Miniconda https://conda.io/docs/user-guide/install/index.html for Python 3.
 
 After installing anaconda or miniconda, open a terminal and run the following commands:
 

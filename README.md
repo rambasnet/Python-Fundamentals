@@ -16,6 +16,7 @@ See paper.md for statement of need.
 | Ch03-1-Functions-Built-in         | Examples of some built-in functions                       |
 | Ch03-2-Functions-Library          | Examples of standard libraries, e.g., math                |
 | Ch03-3-Functions-UserDefined      | Chapter 4 and 6: Functions and Fruitful functions         |
+| Ch03-4-Functions-Advanced         | Some advanced topics on function                          |
 | Ch04-Conditionals                 | Chapter 5: Conditionals                                   |
 | Ch05-Iterations                   | Chapter 7: Iteration - for and while loops                |
 | Ch06-Strings                      | Chapter 8: Strings                                        |

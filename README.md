@@ -24,7 +24,7 @@ See paper.md for statement of need.
 | Ch08-1-Lists                      | Chapter 11: Lists                                         |
 | Ch08-2-Lists-Comprehension-Lambda | List comprehension, Lambda functions, map, reduce, filter |
 | Ch09-1-Dictionaries               | Chapter 20: Dictionaries                                  |
-| Ch09-2-Dictionaries-Advanced      | zip, OrderedDict                                          |
+| Ch09-2-Built-in-DataStructures    | zip, set, Collections: OrderedDict, defaultdict, Counter  |
 | Ch10-Files                        | Chapter 13: Files - with, open, binary, urllib            |
 | Ch11-Turtles-Events               | Chapter 3 & 10                                            |
 | Ch12-Modules                      | Chapter 12: Modules - built-in and user-defined           |

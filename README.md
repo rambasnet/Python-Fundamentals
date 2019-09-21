@@ -7,6 +7,7 @@ The primary goal of these notebooks is to help instructors easily adopt the open
 See paper.md for statement of need.
 
 ## Notebook mapping with corresponding book chapter
+Note: If book chapter is missing, texbook doesn't provide one on the topic
 
 | Notebook ->                       | Think Python3 Textbook                                    |
 | --------------------------------- | --------------------------------------------------------- |

@@ -23,7 +23,7 @@ Note: If book chapter is missing, texbook doesn't provide one on the topic
 | Ch06-Strings                      | Chapter 8: Strings                                        |
 | Ch07-Tuples                       | Chapter 9: Tuples                                         |
 | Ch08-1-Lists                      | Chapter 11: Lists                                         |
-| Ch08-2-Lists-Comprehension-Lambda | List comprehension, Lambda functions, map, reduce, filter |
+| Ch08-2-Lists-Advanced             | List comprehension, Lambda function, map, reduce, filter  |
 | Ch09-1-Dictionaries               | Chapter 20: Dictionaries                                  |
 | Ch09-2-Built-in-DataStructures    | zip, set, Collections: OrderedDict, defaultdict, Counter  |
 | Ch10-Files                        | Chapter 13: Files - with, open, binary, urllib            |

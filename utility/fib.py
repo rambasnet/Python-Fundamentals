@@ -5,7 +5,6 @@ import math
 def fib(n):
     """ Calculates the n-th Fibonacci number iteratively 
     """
-    
     if n < 1:
         raise ValueError("expected integer")
     if math.floor(n) != n:
@@ -17,7 +16,7 @@ def fib(n):
 
 def fibList(n):
     """
-    returns first n fibonacci suequence as list 
+    returns first n fibonacci sequence as list 
     """
     fibs = [1, 1]
     for i in range(2, n):

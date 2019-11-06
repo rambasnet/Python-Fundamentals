@@ -20,8 +20,6 @@ class FibTest(unittest.TestCase):
         for n, val in self.fibSeq:
             self.assertEqual(fib(n), val)
 
-        #self.assertRaises(ValueError, fib, -1)
-
     def test2(self):
         print('test2')
         # function name can be arbitrary but must start with test or

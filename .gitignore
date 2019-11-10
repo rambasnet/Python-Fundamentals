@@ -117,3 +117,5 @@ dmypy.json
 .ipynb_checkpoints/
 *.pickle
 __pycache__/
+
+*.db-journal

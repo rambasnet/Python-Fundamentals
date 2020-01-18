@@ -75,11 +75,14 @@ Anaconda or Miniconda has Python 3 and many other packages that you can easily i
 After installing anaconda or miniconda, open a terminal and run the following commands:
 
 ```
-    conda update conda
-    conda install notebook
+    $ conda update conda
+    $ conda install notebook
 ```
 
-#### Running the notebook server
+#### Running the notebooks in VS Code
+- Python notebooks can be run natively in VS Code. Simply open the notebook file with extension ipynb in VS Code and run each cell; add new cell, etc. right from VS Code.
+
+#### Running the notebooks using jupyter notebook server
 
 Once Python 3 and Jupyter Notebook are installed, open a terminal change working directory using cd command to go into the folder where this repo is cloned and run the notebook from there:
 

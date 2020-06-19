@@ -33,7 +33,7 @@ Note: If book chapter is missing, texbook doesn't provide one on the topic
 | [Ch15-Overloading-Polymorphism](Ch15-Overloading-Polymorphism.ipynb)     | Chapter 21 and 22                            |
 | [Ch16-Exceptions](Ch16-Exceptions.ipynb)                   | Chapter 19 Exceptions                                     |
 | [Ch17-PyGame](Ch17-PyGame.ipynb)                       | Chapter 17 PyGame                                         |
-| [Ch18-Inheritence](Ch18-Inheritence.ipynb)                  | Chapter 23 Inheritance                                    |
+| [Ch18-Inheritance](Ch18-Inheritance.ipynb)                  | Chapter 23 Inheritance                                    |
 | [Ch19-UnitTest](Ch19-UnitTest.ipynb)                     | UnitTest Framework                                        |
 | [Ch20-Memoization-Optimization](Ch20-Memoization-Optimization.ipynb)     | Basics of Dynamic Programming             |
 | [Ch21-SqliteDB](Ch21-SqliteDB.ipynb)                     | Intro to Sqlite3 Database                                 |
@@ -90,7 +90,7 @@ Once Python 3 and Jupyter Notebook are installed, open a terminal change working
     jupyter notebook
 ```
 
-This will start a Jupyter session in your browser. Open Ch00-TableOfContents notebook and start there or open any chapter and start coding...
+This will start a Jupyter session in your browser. Open any chapter and start coding...
 
 ## Contributing
 

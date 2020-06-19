@@ -39,7 +39,7 @@ Note: If book chapter is missing, texbook doesn't provide one on the topic
 | [Ch21-SqliteDB](Ch21-SqliteDB.ipynb)                     | Intro to Sqlite3 Database                                 |
 | [Ch22-LinkedLists](Ch22-LinkedLists.ipynb)                  | Chapter 24 Linked Lists                                   |
 | [Ch23-Stacks](Ch23-Stacks.ipynb)                       | Chapter 25 Stacks                                         |
-| [Ch24-Queues]Ch24-Queues.ipynb)                       | Chapter 26 Queues                                         |
+| [Ch24-Queues](Ch24-Queues.ipynb)                       | Chapter 26 Queues                                         |
 | [Ch25-Trees](Ch25-Trees.ipynb)         | Chapter 27 Trees                                          |
 
 ## Who can use these notebooks

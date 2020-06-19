@@ -13,34 +13,34 @@ Note: If book chapter is missing, texbook doesn't provide one on the topic
 | ---------------------------------              | --------------------------------------------------------- |                   
 | [Ch01-Introduction](Ch01-Introduction.ipynb)                 | Chapter 1: The way of the program                         |
 | [Ch02-Data, Variables, Std IO](Ch02-Data-Variables.ipynb)    | Chapter 2: Variables, expressions, and statements         |
-| Ch03-1-Functions-Built-in         | Examples of some built-in functions                       |
-| Ch03-2-Functions-Library          | Examples of standard libraries, e.g., math                |
-| Ch03-3-Functions-UserDefined      | Chapter 4 and 6: Functions and Fruitful functions         |
-| Ch03-4-Functions-Advanced         | Some advanced topics on function                          |
-| Ch04-Conditionals                 | Chapter 5: Conditionals                                   |
-| Ch05-Iterations                   | Chapter 7: Iteration - for and while loops                |
-| Ch06-Strings                      | Chapter 8: Strings                                        |
-| Ch07-Tuples                       | Chapter 9: Tuples                                         |
-| Ch08-1-Lists                      | Chapter 11: Lists                                         |
-| Ch08-2-Lists-Advanced             | List comprehension, Lambda function, map, reduce, filter  |
-| Ch09-1-Dictionaries               | Chapter 20: Dictionaries                                  |
-| Ch09-2-Built-in-DataStructures    | zip, set, Collections: OrderedDict, defaultdict, Counter  |
-| Ch10-Files                        | Chapter 13: Files - with, open, binary, urllib            |
-| Ch11-Turtles-Events               | Chapter 3 & 10                                            |
-| Ch12-Modules                      | Chapter 12: Modules - built-in and user-defined           |
-| Ch13-Recursion                    | Chapter 18: Recursion                                     |
-| Ch14-OOP                          | Chapter 15, 16 Classes and Basics                         |
-| Ch15-Overloading-Polymorphism     | Chapter 21 and 22                                         |
-| Ch16-Exceptions                   | Chapter 19 Exceptions                                     |
-| Ch17-PyGame                       | Chapter 17 PyGame                                         |
-| Ch18-Inheritence                  | Chapter 23 Inheritance                                    |
-| Ch19-UnitTest                     | UnitTest Framework                                        |
-| Ch20-Memoization-Optimization     | Basics of Dynamic Programming                             |
-| Ch21-SqliteDB                     | Intro to Sqlite3 Database                                 |
-| Ch22-LinkedLists                  | Chapter 24 Linked Lists                                   |
-| Ch23-Stacks                       | Chapter 25 Stacks                                         |
-| Ch24-Queues                       | Chapter 26 Queues                                         |
-| Ch25-Trees & Binary Trees         | Chapter 27 Trees                                          |
+| [Ch03-1-Functions-Built-in](Ch03-1-Functions-Built-in.ipynb) | Examples of some built-in functions                       |
+| [Ch03-2-Functions-Library](Ch03-2-Functions-Library.ipynb)   | Examples of standard libraries, e.g., math                |
+| [Ch03-3-Functions-UserDefined](Ch03-3-Functions-UserDefined.ipynb)| Chapter 4 and 6: Functions and Fruitful functions    |
+| [Ch03-4-Functions-Advanced](Ch03-4-Functions-Advanced.ipynb)  | Some advanced topics on function                          |
+| [Ch04-Conditionals](Ch04-Conditionals.ipynb)                 | Chapter 5: Conditionals                                   |
+| [Ch05-Iterations](Ch05-Iterations.ipynb)                   | Chapter 7: Iteration - for and while loops                |
+| [Ch06-Strings](Ch06-Strings.ipynb)                      | Chapter 8: Strings                                        |
+| [Ch07-Tuples](Ch07-Tuples.ipynb)                       | Chapter 9: Tuples                                         |
+| [Ch08-1-Lists](Ch08-1-Lists.ipynb)                      | Chapter 11: Lists                                         |
+| [Ch08-2-Lists-Advanced](Ch08-2-Lists-Comprehension-Lambda.ipynb) | List comprehension, Lambda function, map, reduce, filter  |
+| [Ch09-1-Dictionaries](Ch09-1-Dictionaries.ipynb)               | Chapter 20: Dictionaries                                  |
+| [Ch09-2-Built-in-DataStructures](Ch09-2-Built-in-DataStructures.ipynb) | zip, set, Collections: OrderedDict, defaultdict, Counter  |
+| [Ch10-Files](Ch10-Files.ipynb)                        | Chapter 13: Files - with, open, binary, urllib            |
+| [Ch11-Turtles-Events](Ch11-Turtles-Events.ipynb)               | Chapter 3 & 10                                            |
+| [Ch12-Modules](Ch12-Modules.ipynb)                      | Chapter 12: Modules - built-in and user-defined           |
+| [Ch13-Recursion](Ch13-Recursion.ipynb)                    | Chapter 18: Recursion                                     |
+| [Ch14-OOP](Ch14-OOP.ipynb)                          | Chapter 15, 16 Classes and Basics                         |
+| [Ch15-Overloading-Polymorphism](Ch15-Overloading-Polymorphism.ipynb)     | Chapter 21 and 22                            |
+| [Ch16-Exceptions](Ch16-Exceptions.ipynb)                   | Chapter 19 Exceptions                                     |
+| [Ch17-PyGame](Ch17-PyGame.ipynb)                       | Chapter 17 PyGame                                         |
+| [Ch18-Inheritence](Ch18-Inheritence.ipynb)                  | Chapter 23 Inheritance                                    |
+| [Ch19-UnitTest](Ch19-UnitTest.ipynb)                     | UnitTest Framework                                        |
+| [Ch20-Memoization-Optimization](Ch20-Memoization-Optimization.ipynb)     | Basics of Dynamic Programming             |
+| [Ch21-SqliteDB](Ch21-SqliteDB.ipynb)                     | Intro to Sqlite3 Database                                 |
+| [Ch22-LinkedLists](Ch22-LinkedLists.ipynb)                  | Chapter 24 Linked Lists                                   |
+| [Ch23-Stacks](Ch23-Stacks.ipynb)                       | Chapter 25 Stacks                                         |
+| [Ch24-Queues]Ch24-Queues.ipynb)                       | Chapter 26 Queues                                         |
+| [Ch25-Trees](Ch25-Trees.ipynb)         | Chapter 27 Trees                                          |
 
 ## Who can use these notebooks
 

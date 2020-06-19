@@ -9,11 +9,10 @@ See paper.md for statement of need.
 ## Notebook mapping with corresponding book chapter
 Note: If book chapter is missing, texbook doesn't provide one on the topic
 
-| Notebook ->                       | Think Python3 Textbook                                    |
-| --------------------------------- | --------------------------------------------------------- |
-| Ch00-TableOfContents              | Start here                                                |
-| Ch01-Introduction                 | Chapter 1: The way of the program                         |
-| Ch02-Data-Variables               | Chapter 2: Variables, expressions, and statements         |
+| Notebook ->                                    | Think Python3 Textbook                                    |
+| ---------------------------------              | --------------------------------------------------------- |                   
+| [Ch01-Introduction] (Ch01-Introduction.ipynb)                 | Chapter 1: The way of the program                         |
+| [Ch02-Data, Variables, Std IO] (Ch02-Data-Variables.ipynb)    | Chapter 2: Variables, expressions, and statements         |
 | Ch03-1-Functions-Built-in         | Examples of some built-in functions                       |
 | Ch03-2-Functions-Library          | Examples of standard libraries, e.g., math                |
 | Ch03-3-Functions-UserDefined      | Chapter 4 and 6: Functions and Fruitful functions         |
@@ -41,7 +40,7 @@ Note: If book chapter is missing, texbook doesn't provide one on the topic
 | Ch22-LinkedLists                  | Chapter 24 Linked Lists                                   |
 | Ch23-Stacks                       | Chapter 25 Stacks                                         |
 | Ch24-Queues                       | Chapter 26 Queues                                         |
-| Ch25-Trees                        | Chapter 27 Trees                                          |
+| Ch25-Trees & Binary Trees         | Chapter 27 Trees                                          |
 
 ## Who can use these notebooks
 

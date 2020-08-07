@@ -42,6 +42,10 @@ Note: If book chapter is missing, texbook doesn't provide one on the topic
 | [Ch24-Queues](Ch24-Queues.ipynb)                       | Chapter 26 Queues                                         |
 | [Ch25-Trees](Ch25-Trees.ipynb)         | Chapter 27 Trees                                          |
 
+## PDF Format
+
+- pdf version of all the notebooks can be found in [pdfs](https://github.com/rambasnet/Python-Notebooks/tree/master/pdfs) folder
+
 ## Who can use these notebooks
 
 ### University and High-school Coding Instructors

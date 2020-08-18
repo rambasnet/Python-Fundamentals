@@ -7,6 +7,7 @@ The primary goal of these notebooks is to help instructors easily adopt the open
 See paper.md for statement of need.
 
 ## Notebook mapping with corresponding book chapter
+
 Note: If book chapter is missing, texbook doesn't provide one on the topic
 
 | Notebook ->                                    | Think Python3 Textbook                                    |
@@ -75,11 +76,11 @@ To run these notebooks interactively and save your work locally, you need <a hre
 
 Anaconda or Miniconda has Python 3 and many other packages that you can easily install on any platform (Windows, Linux, and Mac). First, install Anaconda: http://docs.continuum.io/anaconda/install/ or Miniconda https://conda.io/docs/user-guide/install/index.html for Python 3.
 
-After installing anaconda or miniconda, open a terminal and run the following commands:
+After installing anaconda or miniconda, open a terminal or cmd prompt and run the following commands:
 
-```
-    $ conda update conda
-    $ conda install notebook
+```bash
+    conda update conda
+    conda install notebook
 ```
 
 #### Running the notebooks in VS Code
@@ -89,7 +90,7 @@ After installing anaconda or miniconda, open a terminal and run the following co
 
 Once Python 3 and Jupyter Notebook are installed, open a terminal change working directory using cd command to go into the folder where this repo is cloned and run the notebook from there:
 
-```
+```bash
     cd <directory where this repo is cloned>
     jupyter notebook
 ```

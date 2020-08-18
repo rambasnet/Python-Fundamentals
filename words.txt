@@ -1,0 +1,8 @@
+apple
+ball
+cat
+dog
+elephant
+zebra
+1
+[1, 2, 3]

@@ -84,6 +84,7 @@ After installing anaconda or miniconda, open a terminal or cmd prompt and run th
 ```
 
 #### Running the notebooks in VS Code
+
 - Python notebooks can be run natively in VS Code. Simply open the notebook file with extension ipynb in VS Code and run each cell; add new cell, etc. right from VS Code.
 
 #### Running the notebooks using jupyter notebook server

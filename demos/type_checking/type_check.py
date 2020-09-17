@@ -1,6 +1,6 @@
 """Script to demonstrate typing in Python 3.5 and higher version.
 
-Must include linting in VS Code.
+Must install and include path to pylint in VS Code.
 """
 
 # Variable type annotations

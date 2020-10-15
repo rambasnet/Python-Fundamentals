@@ -17,6 +17,14 @@ def areaOfCircle(radius):
 
 
 if __name__ == '__main__':
+    print('module1.__doc__ = ', __doc__)
+    print('module1.__file__ = ', __file__)
+    print('module1.__name__ = ', __name__)
+    print('module1.__package__ = ', __package__)
+    print('module2.__doc__ = ', module2.__doc__)
+    print('module2.__file__ = ', module2.__file__)
+    print('module2.__name__ = ', module2.__name__)
+    print('module2.__package__ = ', module2.__package__)
     print(question)
     print(answer)
     area = areaOfCircle(3)

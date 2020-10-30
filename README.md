@@ -27,16 +27,17 @@ Note: If book chapter is missing, texbook doesn't provide one on the topic
 | [Ch08-2-Lists-Advanced](Ch08-2-Lists-Comprehension-Lambda.ipynb) | List comprehension, Lambda function, map, reduce, filter  |
 | [Ch09-1-Dictionaries](Ch09-1-Dictionaries.ipynb)               | Chapter 20: Dictionaries                                  |
 | [Ch09-2-Built-in-DataStructures](Ch09-2-Built-in-DataStructures.ipynb) | zip, set, Collections: OrderedDict, defaultdict, Counter  |
-| [Ch10-Files](Ch10-Files.ipynb)                        | Chapter 13: Files - with, open, binary, urllib            |
+| [Ch10-1-Files](Ch10-1-Files.ipynb)                        | Chapter 13: Files - with, open, text file            |
+| [Ch10-2-Files-Advanced](Ch10-2-Files-Advanced.ipynb)  | Chapter 13: urllib, pickle, binary files, checksums  |
 | [Ch11-Turtles-Events](Ch11-Turtles-Events.ipynb)               | Chapter 3 & 10                                            |
-| [Ch12-Modules](Ch12-Modules.ipynb)                      | Chapter 12: Modules - built-in and user-defined           |
+| [Ch12-ModulesAndPackages](Ch12-Modules.ipynb)                      | Chapter 12: Modules - built-in and user-defined           |
 | [Ch13-Recursion](Ch13-Recursion.ipynb)                    | Chapter 18: Recursion                                     |
 | [Ch14-OOP](Ch14-OOP.ipynb)                          | Chapter 15, 16 Classes and Basics                         |
 | [Ch15-Overloading-Polymorphism](Ch15-Overloading-Polymorphism.ipynb)     | Chapter 21 and 22                            |
 | [Ch16-Exceptions](Ch16-Exceptions.ipynb)                   | Chapter 19 Exceptions                                     |
 | [Ch17-PyGame](Ch17-PyGame.ipynb)                       | Chapter 17 PyGame                                         |
 | [Ch18-Inheritance](Ch18-Inheritance.ipynb)                  | Chapter 23 Inheritance                                    |
-| [Ch19-UnitTest](Ch19-UnitTest.ipynb)                     | UnitTest Framework                                        |
+| [Ch19-Unittest](Ch19-Unittest.ipynb)                     | UnitTest Framework                                        |
 | [Ch20-Memoization-Optimization](Ch20-Memoization-Optimization.ipynb)     | Basics of Dynamic Programming             |
 | [Ch21-SqliteDB](Ch21-SqliteDB.ipynb)                     | Intro to Sqlite3 Database                                 |
 | [Ch22-LinkedLists](Ch22-LinkedLists.ipynb)                  | Chapter 24 Linked Lists                                   |

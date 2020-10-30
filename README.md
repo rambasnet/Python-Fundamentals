@@ -4,7 +4,7 @@ These jupyter notebooks are based on open-source textbook "How to Think Like a C
 
 The primary goal of these notebooks is to help instructors easily adopt the open-source textbook to teach programming and problem solving using Python in an interactive and hands-on approach (a.k.a. learning-by-doing). Some new chapters with important concepts and topics have been added and some existing chapters have been slightly reordered. These notebooks primarily consist of outlines of theoritical concepts, keywords and definitions along with code, [code visualization](https://pythontutor.com) compounded by appropriately challenging [intercollegiate programming contests problems](https://open.kattis.com) where applicable to help students engage in the challenging concepts of coding and problem solving.
 
-See paper.md for statement of need.
+See [paper.md](paper.md) file for statement of need.
 
 ## Notebook mapping with corresponding book chapter
 

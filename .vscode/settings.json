@@ -1,7 +1,0 @@
-{
-    "python.pythonPath": "/Users/rbasnet/miniconda3/bin/python",
-    "python.linting.pylintEnabled": true,
-    "python.linting.enabled": true,
-    "python.linting.lintOnSave": true,
-    "python.linting.pylintPath": "/Users/rbasnet/miniconda3/bin/pylint"
-}

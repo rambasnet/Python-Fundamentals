@@ -118,3 +118,4 @@ dmypy.json
 __pycache__/
 
 *.db-journal
+.vscode

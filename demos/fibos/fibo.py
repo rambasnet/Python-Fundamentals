@@ -1,4 +1,10 @@
-# Fibonacci numbers module
+#! /usr/bin/env python3
+""" Fibonacci Module 
+- Run the module providing an argument:
+$ python3 fibo.py 10
+"""
+
+import math
 
 def fib(n):    
     """

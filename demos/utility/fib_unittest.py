@@ -1,4 +1,5 @@
 #! /usr/bin/env python3
+
 """
 unittest for fib functions in fib.py module
 """
@@ -41,6 +42,7 @@ class FibTest(unittest.TestCase):
         # notice function is not called but is is passed along with the parameter
         self.assertRaises(ValueError, fib, -1)
 
+    # function without test word in name
     def someTest(self):
         print('someTest')
         print('This function will not run!')
@@ -52,4 +54,5 @@ class FibTest(unittest.TestCase):
 
 
 if __name__ == "__main__":
+    # auto-discover unittest in this module and run it...
     unittest.main()

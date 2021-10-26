@@ -82,7 +82,8 @@ After installing anaconda or miniconda, open a terminal or cmd prompt and run th
 
 ```bash
     conda update conda
-    conda install notebook
+    conda install notebook # or
+    conda install -c conda-forge retrolab # uses notebook
 ```
 
 #### Running the notebooks in VS Code
@@ -95,7 +96,8 @@ Once Python 3 and Jupyter Notebook are installed, open a terminal change working
 
 ```bash
     cd <directory where this repo is cloned>
-    jupyter notebook
+    jupyter notebook # or
+    jupyter retro
 ```
 
 This will start a Jupyter session in your browser. Open any chapter and start coding...

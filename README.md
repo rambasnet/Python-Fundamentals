@@ -13,7 +13,7 @@ Note: If book chapter is missing, texbook doesn't provide one on the topic
 | Notebook ->                                    | Think Python3 Textbook                                    |
 | ---------------------------------              | --------------------------------------------------------- |
 | [Ch01-Introduction](Ch01-Introduction.ipynb)                 | Chapter 1: The way of the program                         |
-| [Ch02-1-Data, Variables, Std IO](Ch02-1-Data-Variables.ipynb)    | Chapter 2: Variables, expressions, and statements         |
+| [Ch02-1-Data, Variables, Std IO](Ch02-1-Data-Variables-StdIO.ipynb)    | Chapter 2: Data, Variables and Standard IO         |
 | [Ch02-2-BitwiseOperators](Ch02-2-BitwiseOperators.ipynb) | Number Systems & Bitwise Operators |
 | [Ch03-1-Functions-Built-in](Ch03-1-Functions-Built-in.ipynb) | Examples of some built-in functions                       |
 | [Ch03-2-Functions-Library](Ch03-2-Functions-Library.ipynb)   | Examples of standard libraries, e.g., math                |

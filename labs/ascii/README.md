@@ -17,9 +17,8 @@ Write a Python program that displays some ASCII arts on to the Console/Terminal 
   *	$ git commit -m “create main.py file”
   *	$ git push
 6.	Do git add, commit and push as often as possible after every significant improvement or addition to your program so you are familiar with the git commands, and you have a working backup.
-7.	Type the code stub in main.py file as a hint to complete the lab: 
-Python-Fundamentals -> labs -> ascii folder.
-8.	Never copy-paste code; you’ll not learn anything by doing so! 
+7.	Type the code stub in main.py file as a hint to complete the lab
+8.	Never copy-paste code; you’ll not learn anything by doing so!
 9.	Type each line of code and use incremental development techniques to learn what the given code does and what happens when you add each line(s) of new code to complete your lab.
 10.	Fix all the FIXMEs and write #fixed# at the end of each FIXME that’s fixed except at the end of your name and date.
 11.	The completed lab should produce an output that looks like the following:

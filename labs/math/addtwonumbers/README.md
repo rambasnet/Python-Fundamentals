@@ -8,7 +8,7 @@ Write a Python program to solve the Kattis addtwonumbers problem: [https://open.
 
 ### Lab Instructions
 
-1. Create your account at [https://open.kattis.com]. Change your university affiliation to Colorado Mesa University if you want to see your rank.
+1. Create your account at [https://open.kattis.com](https://open.kattis.com). Change your university affiliation to Colorado Mesa University if you want to see your rank.
 2. Open your CS0Lab-... repo in VS Code
 2. Create lab folder addtwonumbers inside your CS0Lab-... repository
 3. Inside the addtwonumbers folder, create a file: main.py
@@ -24,11 +24,11 @@ Kattis is a computer program that provides specific input and expects exact outp
 
 6. Test the program locally. While testing, provide input using the same format as described in the Input section and shown in input samples.
 7. Upload only the .cpp solution file to Kattis for testing. You can test your solution as many times as you wish. Kattis uses its own hidden test cases to test your program against. However, your goal is to get the accepted verdict in the first try.
-8. Create a screenshot showing your submission has been accepted and add it to the lab folder for verification. (10 points)
+8. Create two screenshots showing your local testing and the kattis final Accept verdict and save them to the lab folder. (10 points)
 9. Update your README file (10 points) as shown here: https://github.com/rambasnet/csci000-astudent
 
 ## Submission
-Add all the relevant source file(s) and documents into the correct folder and do a final add, commit, and push before the due date.
+Add all the relevant source file(s) and documents, screenshots into the correct lab folder and do a final add, commit, and push before the due date.
 
 ```bash
 $ git pull

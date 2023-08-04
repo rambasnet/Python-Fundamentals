@@ -1,10 +1,10 @@
 """
  Kattis Add Two Numbers Lab
  By: FIXME
- CSCI 111
+ CSCI 110 Lab
  Date: FIXME
  
-Read and Solve Add Two Numbers: https://open.kattis.com/problems/addtwonumbers 
+Read and solve: Add Two Numbers - https://open.kattis.com/problems/addtwonumbers 
  
 Algorithm steps:
 	1. Read data as a line

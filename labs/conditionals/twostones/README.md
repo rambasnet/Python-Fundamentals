@@ -1,20 +1,20 @@
-# CS0 Lab - User-defined Functions and Unittest Lab
+# CS0 Lab - Conditionals Lab
 
 Possible Points: 100
 
-Write a Python program to solve the Kattis thelastproblem problem: [https://open.kattis.com/problems/thelastproblem](https://open.kattis.com/problems/thelastproblem). Read the problem statement carefully to design a correct solution.
+Write a Python program to solve the Kattis twostones problem: [https://open.kattis.com/problems/twostones](https://open.kattis.com/problems/twostones). Read the problem statement carefully to design a correct solution.
 
 ## Lab Instructions
 
 1. Open your CS0Lab-... repo in VS Code
-2. Create lab folder lastproblem inside your CS0Lab-... repository
-3. Inside the lastproblem folder, create a file: main.py
+2. Create lab folder twostones inside your CS0Lab-... repository
+3. Inside the folder, create a file: main.py
 4. Use the partial code stub provided in main.py file and fix all FIXMEs. (80 points)
 5. Follow best programming practices by using proper white spaces, comments, etc.
 
 ```
-IMPORTANT: Never ask the user telling what data to enter for Kattis problems. Kattis knows what to enter.
-Directly read the input. Print only the answer as displayed in the sample output.
+IMPORTANT: Never ask the user telling what data to enter for Kattis problems. Kattis knows what to enter. 
+Directly read the input. Print only the answer as displayed in the sample output. 
 Print as asked: nothing less; nothing more!
 Kattis is a computer program that provides specific input and expects exact output – to a space to give the correct verdict.
 ```

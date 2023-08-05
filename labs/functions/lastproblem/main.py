@@ -43,7 +43,7 @@ def test_answer():
   expected = "Thank you, Alice, and farewell!"
   assert ans == expected, f"Expected: {expected}, but got: {ans}"
   ans = answer("Bob")
-  expected = "Thank you, Bob, and farewell!" # FIXME 5: fix the expected output
+  expected = "Thank you, Bob and farewell!" # FIXME 5: fix the expected output
   assert ans == expected, f"Expected: {expected}, but got: {ans}"
   # FIXME 6: add a new test case to test your answer function
   # FIXME 7: add a new test case to test your answer function

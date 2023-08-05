@@ -1,8 +1,8 @@
-# CS0 Lab - Conditionals
+# CS0 Lab - Loops
 
 Possible Points: 100
 
-Write a Python program to solve the Kattis problem - twostones [https://open.kattis.com/problems/twostones](https://open.kattis.com/problems/twostones). Read the problem statement carefully to design a correct solution.
+Write a Python program to solve the Kattis problem - Oddities [https://open.kattis.com/problems/oddities](https://open.kattis.com/problems/oddities). Read the problem statement carefully to design a correct solution using unittest.
 
 ## Lab Instructions
 

@@ -1,4 +1,4 @@
-# CS0 Lab - User-defined Functions and Unittest Lab
+# CS0 Lab - User-defined Functions and Unittest
 
 Possible Points: 100
 
@@ -46,7 +46,6 @@ $ git commit -m “Final Submission”
 $ git push
 $ git status
 ```
-- Make sure your repository is 
 
 - Check and make sure the files are actually pushed to your GitHub repo on github.com.
 NOTE: Do not add and commit to this lab folder after the due date as it may be considered late submission!

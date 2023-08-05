@@ -1,10 +1,8 @@
-# CS0 - Math - Add Two Numbers Lab
+# CS0 Lab - Math
 
 Possible Points: 100
 
-## Math – Kattis Add Two Numbers – Lab
-
-Write a Python program to solve the Kattis addtwonumbers problem: [https://open.kattis.com/problems/addtwonumbers](https://open.kattis.com/problems/addtwonumbers). Read the problem statement carefully to design a correct solution.
+Write a Python program to solve the Kattis problem: addtwonumbers [https://open.kattis.com/problems/addtwonumbers](https://open.kattis.com/problems/addtwonumbers). Read the problem statement carefully to design a correct solution.
 
 ### Lab Instructions
 
@@ -28,6 +26,7 @@ Kattis is a computer program that provides specific input and expects exact outp
 9. Update your README file (10 points) as shown here: https://github.com/rambasnet/csci000-astudent
 
 ## Submission
+
 Add all the relevant source file(s) and documents, screenshots into the correct lab folder and do a final add, commit, and push before the due date.
 
 ```bash
@@ -35,10 +34,6 @@ $ git pull
 $ git status
 $ git add <filename>… - add each file in the red that is part of this lab
 $ git status
-```
-
-- Make sure all files are green and none left in red!
-```bash
 $ git commit -m “Final Submission”
 $ git push
 $ git status

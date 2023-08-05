@@ -40,12 +40,19 @@ Note: The figure on the right (looks like a mouse) uses both single ( ' ) and do
 14.	All FIXMEs are worth equal points unless stated otherwise.
 
 
-## Submission:
-1.	Add all the relevant source file(s) and documents into the ascii folder and do a final add, commit, and push before the due date.
-  * $ git status
-  *	$ git add <filename>… - add each file that was new or modified that is part of this assignment
-  *	$ git commit -m “Final Submission”
-  *	$ git push
-  *	$ git status
-2.	Check and make sure the files are pushed to your GitHub repo.
-3.	NOTE: Do not add and commit to this lab folder after the due date as it may be considered late submission!
+## Submission
+
+Add all the relevant source file(s), documents, and screenshots into the correct lab folder and do a final add, commit, and push before the due date.
+
+```bash
+$ git pull
+$ git status
+$ git add <filename>… - add each file in the red that is part of this lab
+$ git status
+$ git commit -m “Final Submission”
+$ git push
+$ git status
+```
+
+- Check and make sure the files are actually pushed to your GitHub repo on github.com.
+NOTE: Do not add and commit to this lab folder after the due date as it may be considered late submission!

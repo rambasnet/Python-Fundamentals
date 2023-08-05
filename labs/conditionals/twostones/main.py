@@ -19,35 +19,32 @@ Algorithm Steps:
 import sys
 
 def main():
-  if len(sys.argv) == 2 and sys.argv[1] == "test":
-    # FIXME 1: call testOddOrEven function that tests oddOrEven function
-    # FIXME 2: call the test function that tests answer function
-    pass
-  else:
-    # FIXME 3: read the number of stones
-    # FIXME 4: call answer function passing the number of stones as an argument
-    # FIXME 5: print the answer as shown in the sample output
-    pass
+  # FIXME 1: read the number of stones
+  # FIXME 2: call answer function passing the number of stones as an argument
+  # FIXME 3: print the answer as shown in the sample output
+  pass
 
-def oddOrEven(number: int):
+def odd_even(number: int):
   # FIXME 4: if the number divided by 2 has 0 remainder, return 'even'
   # otherwise, return 'odd'
   ans = "FIXME"
   return ans
 
 def answer(stone: int):
-  evenorodd = oddOrEven(stone)
+  evenorodd = odd_even(stone)
   if (evenorodd == "odd"):
     return "Alice"
   else:
     return "Bob"
 
-def testOddOrEven():
+# function to test odd_even function
+# test function must start with test_ prefix for pytest to recognize it
+def test_odd_even():
   number = 99999
   expected = "odd"
-  ans = oddOrEven(number)
-  assert(oddOrEven(number) == ans), f"Expected: {expected}, but got: {ans}"
-  assert(oddOrEven(200) == "even"), f"Expected: even, but got: {oddOrEven(200)}"
+  ans = odd_even(number)
+  assert(odd_even(number) == ans), f"Expected: {expected}, but got: {ans}"
+  assert(odd_even(200) == "even"), f"Expected: even, but got: {odd_even(200)}"
   # FIXME 5: Write 3rd test case
   # FIXME 6: Write 4th test case
   print("All test cases passed for oddOrEven()...", file=sys.stderr)

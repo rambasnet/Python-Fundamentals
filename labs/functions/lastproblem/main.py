@@ -17,7 +17,7 @@ import sys
 
 def main():
   # step1. read data
-  data = readData()
+  data = read_data()
   # FIXME 1: Call answer function passing data as an argument
   # store the returned result into ans variable
   ans = "FIXME"
@@ -25,7 +25,7 @@ def main():
   # FIXME 2: print the answer as shown in the sample output
 
 # Function reads the data from std input and returns it
-def readData():
+def read_data():
   # FIXME 3: using inpyt read and store the data into data variable
   # FIXME 4: return data
   pass
@@ -36,7 +36,9 @@ def answer(data):
 	ans = f"Thank you, {data}, and farewell!"
 	return ans
 
-def testAnswer():
+# Function to test answer function
+# test function must start with test_ prefix for pytest to recognize it
+def test_answer():
   ans = answer("Alice")
   expected = "Thank you, Alice, and farewell!"
   assert ans == expected, f"Expected: {expected}, but got: {ans}"
@@ -50,5 +52,5 @@ def testAnswer():
   print("All test cases passed...", file=sys.stderr)
 
 if __name__ == "__main__":
-  testAnswer() # call testAnswer function
   # FIXME 10: call main function
+  pass

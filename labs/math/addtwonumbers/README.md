@@ -22,7 +22,7 @@ Print as asked: nothing less; nothing more!
 Kattis is a computer program that provides specific input and expects exact output – to a space to give the correct verdict.
 ```
 
-6. Test the program locally. While testing, provide input using the same format as described in the Input section and shown in input samples.
+6. Test the whole program manually. While testing, provide input using the same format as described in the Input section and shown in input samples.
 7. Upload only the .py file(s) to Kattis for testing. You can check your solution as many times as you wish. Kattis uses its own hidden test cases to test your program against. However, your goal is to get the accepted verdict in the first try.
 8. Create screenshots showing your local testing and the kattis final Accept verdict and save them to the lab folder. (10 points)
 9. Update your README file (10 points) as shown here: https://github.com/rambasnet/csci000-astudent

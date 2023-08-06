@@ -39,7 +39,7 @@ def read_int_data():
   # FIXME 4: convert the data into an int and return it
   pass
 
-# Function creates the twilight output and returns it
+# Function creates the final answer and returns it given the number
 def answer(num: int):
 	ans = odd_even(num)
 	return f'{num} is {ans}'

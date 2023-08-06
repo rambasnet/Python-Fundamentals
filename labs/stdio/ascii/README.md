@@ -39,7 +39,6 @@ Note: The figure on the right (looks like a mouse) uses both single ( ' ) and do
 13.	When done, update your README file (10 points) as shown here: https://github.com/rambasnet/csci000-astudent
 14.	All FIXMEs are worth equal points unless stated otherwise.
 
-
 ## Submission
 
 Add all the relevant source file(s), documents, and screenshots into the correct lab folder and do a final add, commit, and push before the due date.

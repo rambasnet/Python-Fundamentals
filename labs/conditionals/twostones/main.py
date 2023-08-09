@@ -1,5 +1,4 @@
 """
-Kattis - Take Two Stones
 Conditional Logic Lab
 Updated By: FIXME
 CSCI 110 Lab
@@ -19,27 +18,46 @@ Algorithm Steps:
 import sys
 
 def main():
+  """Main function that solves the problem
+  """
   # FIXME 1: read the number of stones
   # FIXME 2: call answer function passing the number of stones as an argument
   # FIXME 3: print the answer as shown in the sample output
   pass
 
 def odd_even(number: int):
+  """Checks if the number is odd or even
+
+  Args:
+      number (int): number to check odd or even
+
+  Returns:
+      str: 'odd' if the number is odd, 'even' otherwise
+  """
   # FIXME 4: if the number divided by 2 has 0 remainder, return 'even'
   # otherwise, return 'odd'
   ans = "FIXME"
   return ans
 
 def answer(stone: int):
+  """Creates the final answer and returns it given the number of stones
+
+  Args:
+      stone (int): number of stones
+
+  Returns:
+      str: 'Alice' if the number of stones is odd, 'Bob' otherwise
+  """
   evenorodd = odd_even(stone)
   if (evenorodd == "odd"):
     return "Alice"
   else:
     return "Bob"
 
-# function to test odd_even function
 # test function must start with test_ prefix for pytest to recognize it
 def test_odd_even():
+  """Function to test odd_even function
+  """
   number = 99999
   expected = "odd"
   ans = odd_even(number)

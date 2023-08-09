@@ -1,8 +1,8 @@
 """
- Kattis Add Two Numbers Lab
- By: FIXME
- CSCI 110 Lab
- Date: FIXME
+Math and Variables Lab
+By: FIXME
+CSCI 110 Lab
+Date: FIXME
  
 Read and solve: Add Two Numbers - https://open.kattis.com/problems/addtwonumbers 
  
@@ -13,7 +13,10 @@ Algorithm steps:
   4. print the result
 """
  
-def solve():
+def main():
+  """Main function that solves the problem
+  """
+
   # read data
   line = input()
   # split the data into two numbers
@@ -25,4 +28,4 @@ def solve():
 	# FIXME 4: add two numbers and store the result into ans variable
 	# FIXME 5: print the answer as shown in the sample output
 
-solve() # call solve function
+main() # call smain function

@@ -1,5 +1,4 @@
 """
-Kattis - Oddities
 Loops and Unittest Lab
 Updated By: FIXME
 CSCI 110 Lab
@@ -17,15 +16,23 @@ Algorithm:
 
 import sys
 
-# Function to check if the number is odd or even
 def odd_even(number: int):
+  """Checks if the number is odd or even
+
+  Args:
+      number (int): number to check odd or even
+
+  Returns:
+      str: 'odd' if the number is odd, 'even' otherwise
+  """
   # FIXME 1: if the number divided by 2 has 0 remainder, return 'even'
   # otherwise, return 'odd'
   ans = "FIXME"
   return ans
 
-# Function defines the main logic of the program
 def main():
+  """Main function that solves the problem
+  """
   # step 1. read data
   N = read_int_data()
   # FIXME 2 - step 2. repeat N times
@@ -35,18 +42,31 @@ def main():
 
 # Function reads the data from std input and returns it
 def read_int_data():
+  """Reads the data from std input and returns it
+
+  Returns:
+      int: data read from std input as an int
+  """
   # FIXME 3: using input read and store the data into data variable
   # FIXME 4: convert the data into an int and return it
   pass
 
-# Function creates the final answer and returns it given the number
 def answer(num: int):
-	ans = odd_even(num)
-	return f'{num} is {ans}'
+  """Creates the final answer and returns it given the number
 
-# Function test answer function
+  Args:
+      num (int): number to check odd or even
+
+  Returns:
+      bool : True if the number is even, False otherwise
+  """
+  ans = odd_even(num)
+  return f'{num} is {ans}'
+
 # test function must start with test_ prefix for pytest to recognize it
 def test_answer():
+  """Test answer function
+  """
   ans = answer(10)
   expected = "10 is even"
   assert ans == expected, f"Expected: {expected}, but got: {ans}"
@@ -58,6 +78,8 @@ def test_answer():
   print("All test cases passed...", file=sys.stderr)
 
 def test_odd_even():
+  """Test odd_even function
+  """
   ans = odd_even(10)
   expected = "even"
   assert ans == expected, f"Expected: {expected}, but got: {ans}"

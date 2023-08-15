@@ -75,7 +75,13 @@ You can launch an interactive session of this project using online Binder servic
 
 To run these notebooks interactively and save your work locally, you need [Python 3][https://www.python.org/] and [Jupyter Notebook](http://jupyter.org/) -- an interactive web-based editor that allows you to create and share documents that contain live code and data. Anaconda or Miniconda is the recommended way to install Python and other packages on all modern platforms.
 
-#### Installing via Anaconda or Miniconda
+#### Using Docker Container
+
+- Follow instruction here: [https://github.com/rambasnet/Dockerfiles](https://github.com/rambasnet/Dockerfiles)
+- Install Docker Desktop
+- Follow readme inside python folder to create Python image with required tools
+
+#### Local installation via Anaconda or Miniconda
 
 Anaconda or Miniconda has Python 3 and many other packages that you can easily install on any platform (Windows, Linux, and Mac). First, install Anaconda: [http://docs.continuum.io/anaconda/install/](http://docs.continuum.io/anaconda/install/) or Miniconda [https://conda.io/docs/user-guide/install/index.html](https://conda.io/docs/user-guide/install/index.html) for Python 3.
 

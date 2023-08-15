@@ -21,7 +21,7 @@ def main():
   """
   # step 1. read data
   N = int(input())
-  # FIXME 1 - step 2. repeat the following N times
+  # FIXME 1 - Repeat steps 2-4 N times
   # FIXME 2 - read the input string
   # FIXME 3 - call answer function passing the string as an argument
   # FIXME 4 - print the answer if it returns one, otherwise ignore it

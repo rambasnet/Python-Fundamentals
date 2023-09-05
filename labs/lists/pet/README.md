@@ -1,20 +1,20 @@
-# CS0 Lab - Loops
+# CS0 Lab - List
 
 Possible Points: 100
 
-Write a Python program to solve the Kattis problem - Oddities [https://open.kattis.com/problems/oddities](https://open.kattis.com/problems/oddities). Read the problem statement carefully to design a correct solution using unittest.
+Write a Python program to solve the Kattis problem called pet: [https://open.kattis.com/problems/pet](https://open.kattis.com/problems/pet). Read the problem statement carefully to design a correct solution.
 
 ## Lab Instructions
 
 1. Open your CS0Lab-... repo in VS Code
-2. Create lab folder **loops** inside your CS0Lab-... repository
-3. Inside the lab folder, create a file: main.py
+2. Create lab folder pet inside your CS0Lab-... repository
+3. Inside the pet folder, create a file: main.py
 4. Use the partial code stub provided in main.py file and fix all FIXMEs. (80 points)
 5. Follow best programming practices by using proper white spaces, comments, etc.
 
-```note
-IMPORTANT: Never ask the user telling what data to enter for Kattis problems. Kattis knows what to enter. 
-Directly read the input. Print only the answer as displayed in the sample output. 
+```text
+IMPORTANT: Never ask the user telling what data to enter for Kattis problems. Kattis knows what to enter.
+Directly read the input. Print only the answer as displayed in the sample output.
 Print as asked: nothing less; nothing more!
 Kattis is a computer program that provides specific input and expects exact output – to a space to give the correct verdict.
 ```
@@ -41,7 +41,7 @@ $ git pull
 $ git status
 $ git add <filename>… - add each file in the red that is part of this lab
 $ git status
-$ git commit -m “Final Submission”
+$ git commit -m "Final Submission"
 $ git push
 $ git status
 ```

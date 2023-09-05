@@ -8,8 +8,8 @@ Write a Python program to solve the Kattis problem: addtwonumbers [https://open.
 
 1. Create your account at [https://open.kattis.com](https://open.kattis.com). Change your university affiliation to Colorado Mesa University if you want to see your rank.
 2. Open your CS0Lab-... repo in VS Code
-2. Create lab folder addtwonumbers inside your CS0Lab-... repository
-3. Inside the addtwonumbers folder, create a file: main.py
+2. Create lab folder **math** inside your CS0Lab-... repository
+3. Inside the lab folder, create a file: main.py
 4. Use the partial code stub provided in main.py file and fix all fixmes. (80 points)
 5. Follow best programming practices by using proper white spaces, comments, etc.
 

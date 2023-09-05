@@ -2,12 +2,12 @@
 
 Possible Points: 100
 
-Write a Python program to solve the Kattis thelastproblem problem: [https://open.kattis.com/problems/thelastproblem](https://open.kattis.com/problems/thelastproblem). Read the problem statement carefully to design a correct solution.
+Write a Python program to solve the Kattis problem called thelastproblem: [https://open.kattis.com/problems/thelastproblem](https://open.kattis.com/problems/thelastproblem). Read the problem statement carefully to design a correct solution.
 
 ## Lab Instructions
 
 1. Open your CS0Lab-... repo in VS Code
-2. Create lab folder lastproblem inside your CS0Lab-... repository
+2. Create lab folder **lastproblem** inside your CS0Lab-... repository
 3. Inside the lastproblem folder, create a file: main.py
 4. Use the partial code stub provided in main.py file and fix all FIXMEs. (80 points)
 5. Follow best programming practices by using proper white spaces, comments, etc.
@@ -19,7 +19,7 @@ Print as asked: nothing less; nothing more!
 Kattis is a computer program that provides specific input and expects exact output – to a space to give the correct verdict.
 ```
 
-5. Unittest all the important functions using pytest. Install pytest if required.
+6. Unittest all the important functions using pytest. Install pytest if required.
 
 ```bash
   $ pytest --version
@@ -27,11 +27,10 @@ Kattis is a computer program that provides specific input and expects exact outp
   $ pytest main.py
 ```
 
-6. Test the whole program manually. While testing, provide input using the same format as described in the Input section and shown in input samples.
-
-7. Upload only the .py scripts to Kattis for testing. You can test your solution as many times as you wish. Kattis uses its own hidden test cases to test your program against. However, your goal is to get the accepted verdict in the first try.
-8. Create screenshots showing your local testing and the kattis final Accept verdict and save them to the lab folder. (10 points)
-9. Update your README file (10 points) as shown here: https://github.com/rambasnet/csci000-astudent
+7. Test the whole program manually. While testing, provide input using the same format as described in the Input section and shown in input samples.
+8. Upload only the .py scripts to Kattis for testing. You can test your solution as many times as you wish. Kattis uses its own hidden test cases to test your program against. However, your goal is to get the accepted verdict in the first try.
+9. Create screenshots showing your local testing and the kattis final Accept verdict and save them to the lab folder. (10 points)
+10. Update your README file (10 points) as shown here: [https://github.com/rambasnet/csci000-astudent](https://github.com/rambasnet/csci000-astudent)
 
 ## Submission
 

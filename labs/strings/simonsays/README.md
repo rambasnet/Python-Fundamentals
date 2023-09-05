@@ -7,8 +7,8 @@ Write a Python program to solve the Kattis problem - Simon Says [https://open.ka
 ## Lab Instructions
 
 1. Open your CS0Lab-... repo in VS Code
-2. Create lab folder simonsays inside your CS0Lab-... repository
-3. Inside the folder, create a file: main.py
+2. Create lab folder **strings** inside your CS0Lab-... repository
+3. Inside the lab folder, create a file: main.py
 4. Use the partial code stub provided in main.py file and fix all FIXMEs. (80 points)
 5. Follow best programming practices by using proper white spaces, comments, etc.
 

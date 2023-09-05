@@ -13,7 +13,7 @@ Write a Python program to solve the Kattis problem: addtwonumbers [https://open.
 4. Use the partial code stub provided in main.py file and fix all fixmes. (80 points)
 5. Follow best programming practices by using proper white spaces, comments, etc.
 
-```
+```txt
 IMPORTANT: Never ask the user telling what to do for Kattis problems. Kattis knows what to enter. 
 Directly read the input. Print only the answer as displayed in the sample output. 
 Print as asked: nothing less; nothing more!
@@ -34,7 +34,7 @@ $ git pull
 $ git status
 $ git add <filename>… - add each file in the red that is part of this lab
 $ git status
-$ git commit -m “Final Submission”
+$ git commit -m "Final Submission"
 $ git push
 $ git status
 ```

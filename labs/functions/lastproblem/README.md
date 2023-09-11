@@ -24,7 +24,7 @@ Kattis is a computer program that provides specific input and expects exact outp
 ```bash
   $ pytest --version
   $ pip install -U pytest
-  $ pytest main.py
+  $ pytest test_main.py
 ```
 
 7. Test the whole program manually. While testing, provide input using the same format as described in the Input section and shown in input samples.

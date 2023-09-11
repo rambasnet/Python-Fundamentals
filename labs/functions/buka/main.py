@@ -7,7 +7,7 @@ Date: FIXME
 Solution to Kattis problem - Buka: https://open.kattis.com/problems/buka
 
 Algorithm steps:
-  1. read the first line or operand into a variable
+  1. read the first line or 1st operand into a variable
   3. read the 2nd line or operator into a variable
   3. read the 3rd line or 2nd operand into a variable
   4. concatenate the varialbes into a single string

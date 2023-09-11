@@ -7,9 +7,9 @@ Date: FIXME
 Read and solve - The Last Problem: https://open.kattis.com/problems/thelastproblem
 
 Algorithm:
-		1. Read the input string using function
-		3. Create the output as asked and print it using function
-    3. Test functions using test cases
+1. Read the input string using function
+3. Create the output as asked and print it using function
+3. Test functions using test cases
 """
 
 import sys

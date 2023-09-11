@@ -7,11 +7,11 @@ Date: FIXME
 Solution to Kattis problem - Buka: https://open.kattis.com/problems/buka
 
 Algorithm steps:
-  1. read the first operand into a variable
-  3. read the operator into a variable
-  3. read the 2nd operand into a variable
+  1. read the first line or operand into a variable
+  3. read the 2nd line or operator into a variable
+  3. read the 3rd line or 2nd operand into a variable
   4. concatenate the varialbes into a single string
-  5. run the eval into the concatenated string
+  5. use the built-in eval function on the concatenated string
   6. print the result of the eval as the answer
 """
 

@@ -27,7 +27,7 @@ def main():
   # FIXME4 - read the 2nd operand into a B variable
   # FIXME5 - concatenate all three variables into a single variable called equation
   ans = '' # FIXME - call eval(equation) and assign the return value into ans variable
-  # print the answer
+  # print the answer using sys library's stdout.write() method
   sys.stdout.write(f'{ans}\n')
 
 # call main() funtion to execute it

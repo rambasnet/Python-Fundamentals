@@ -21,10 +21,10 @@ import sys
 def main():
   """Main function that solves the problem
   """
-  # read the first operand into A variable
+  # read/input the first operand into A variable
   A = input()
-  # FIXME3 - read the operator into a variable named operator
-  # FIXME4 - read the 2nd operand into a B variable
+  # FIXME3 - read/input the 2nd line into operator variable
+  # FIXME4 - read/input the 2nd operand into B variable
   # FIXME5 - concatenate all three variables into a single variable called equation
   ans = '' # FIXME - call eval(equation) and assign the return value into ans variable
   # print the answer using sys library's stdout.write() method

@@ -8,8 +8,8 @@ Python lab to explore working with files.
 
 1. Open your CS0Lab-... repo in VS Code
 2. Create a lab folder **fileio** inside your CS0Lab-... repository
-3. Inside the lab folder, create three files: main.py,  test_main.py, and data.txt
-  - Copy data.txt contents into data.txt file
+3. Inside the lab folder, create three files: main.py,  test_main.py, and data.in
+  - Copy data.in contents into data.in file
 4. Type the partial code stub provided in main.py and test_main.py files and fix all FIXMEs. (80 points)
 5. Follow best programming practices by using proper white spaces, comments, etc.
 6. Unittest all the important functions using pytest. Install pytest if required.

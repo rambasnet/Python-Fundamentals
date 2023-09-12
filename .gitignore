@@ -116,7 +116,6 @@ dmypy.json
 .ipynb_checkpoints/
 *.pkl
 __pycache__/
-*.txt
 
 *.db-journal
 .vscode

@@ -9,7 +9,7 @@ Write a Python program to solve the Kattis problem called pet: [https://open.kat
 1. Open your CS0Lab-... repo in VS Code
 2. Create lab folder pet inside your CS0Lab-... repository
 3. Inside the pet folder, create a file: main.py
-4. Use the partial code stub provided in main.py file and fix all FIXMEs. (80 points)
+4. Use the partial code stub provided in main.py and test_main.py files and fix all FIXMEs. (80 points)
 5. Follow best programming practices by using proper white spaces, comments, etc.
 
 ```text
@@ -24,7 +24,7 @@ Kattis is a computer program that provides specific input and expects exact outp
 ```bash
   $ pytest --version
   $ pip install -U pytest
-  $ pytest main.py
+  $ pytest test_main.py
 ```
 
 7. Test the whole program manually. While testing, provide input using the same format as described in the Input section and shown in input samples.

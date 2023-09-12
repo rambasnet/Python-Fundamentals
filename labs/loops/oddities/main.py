@@ -63,33 +63,6 @@ def answer(num: int):
   ans = odd_even(num)
   return f'{num} is {ans}'
 
-# test function must start with test_ prefix for pytest to recognize it
-def test_answer():
-  """Test answer function
-  """
-  ans = answer(10)
-  expected = "10 is even"
-  assert ans == expected, f"Expected: {expected}, but got: {ans}"
-  ans = answer(-199)
-  expected = "-199 is odd"
-  assert ans == expected, f"Expected: {expected}, but got: {ans}"
-  # FIXME 6: add a new test case to test your answer function
-  # FIXME 7: add a new test case to test your answer function
-  print("All test cases passed...", file=sys.stderr)
-
-def test_odd_even():
-  """Test odd_even function
-  """
-  ans = odd_even(10)
-  expected = "even"
-  assert ans == expected, f"Expected: {expected}, but got: {ans}"
-  ans = odd_even(-199)
-  expected = "odd"
-  assert ans == expected, f"Expected: {expected}, but got: {ans}"
-  # FIXME 8: add a new test case to test your answer function
-  # FIXME 9: add a new test case to test your answer function
-  print("All test cases passed...", file=sys.stderr)
-
 if __name__ == "__main__":
   # FIXME 10: call main function
   pass

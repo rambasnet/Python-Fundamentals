@@ -15,7 +15,7 @@ Algorithm:
 import sys
 
 def main():
-  """Main function that solves the problem
+  """Main function that solves the problem.
   """
   data = read_data()
   # FIXME 1: Call answer function passing data as an argument
@@ -23,17 +23,17 @@ def main():
   ans = "FIXME"
   # FIXME 2: print the result
 
-def read_data():
-  """Reads the data from std input and returns it
+def read_data() -> str:
+  """Reads the twilight data from std input and returns it.
   Returns:
     str: data read from std input
   """
-  # FIXME 3: using input read and store the data into data variable
+  # FIXME 3: read and store the input line into data variable
   # FIXME 4: return data
   pass
 
-def answer(data: str):
-  """Creates the twilight output and returns it
+def answer(data: str) -> str:
+  """Creates the twilight output and returns it.
   Args:
     data (str): name of the person
   Returns:

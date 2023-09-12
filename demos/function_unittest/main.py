@@ -14,7 +14,7 @@ Algorithm Steps:
 """
 
 def answer() -> str:
-  """Function returns "Hello World!" string
+  """Function returns "Hello World!" string.
 
   Returns:
       str: returns "Hello World!"
@@ -34,7 +34,7 @@ def add(a: int, b:int) -> int:
   return a+b
 
 def main():
-  """Main function that solves the problem
+  """Main function that solves the problem.
   """
 
   # Read data

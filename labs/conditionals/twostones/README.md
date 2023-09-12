@@ -9,7 +9,7 @@ Write a Python program to solve the Kattis problem called twostones [https://ope
 1. Open your CS0Lab-... repo in VS Code
 2. Create lab folder **conditional** inside your CS0Lab-... repository
 3. Inside the folder, create a file: main.py
-4. Use the partial code stub provided in main.py file and fix all FIXMEs. (80 points)
+4. Use the partial code stub provided in main.py and test_main.py files and fix all FIXMEs. (80 points)
 5. Follow best programming practices by using proper white spaces, comments, etc.
 
 ```note
@@ -24,7 +24,7 @@ Kattis is a computer program that provides specific input and expects exact outp
 ```bash
   $ pytest --version
   $ pip install -U pytest
-  $ pytest main.py
+  $ pytest test_main.py
 ```
 
 6. Test the whole program manually. While testing, provide input using the same format as described in the Input section and shown in input samples.
@@ -47,4 +47,3 @@ $ git status
 ```
 
 - Check and make sure the files are actually pushed to your GitHub repo on github.com.
-NOTE: Do not add and commit to this lab folder after the due date as it may be considered late submission!

@@ -1,4 +1,4 @@
-# CS0 Lab - Dictionary and Unittest
+# CS0 Lab - Dictionary and Unit testing
 
 Possible Points: 100
 
@@ -8,8 +8,8 @@ Write a Python program to solve the Kattis problem Morse Code Palindrome: [https
 
 1. Open your CS0Lab-... repo in VS Code
 2. Create a lab folder **morsecodepalindromes** inside your CS0Lab-... repository
-3. Inside the lab folder, create a file: main.py
-4. Use the partial code stub provided in main.py and test_main.py files and fix all FIXMEs. (80 points)
+3. Inside the lab folder, create two files: main.py and test_main.py
+4. Type the partial code stub provided in main.py and test_main.py files and fix all FIXMEs. (80 points)
 5. Follow best programming practices by using proper white spaces, comments, etc.
 
 ```text

@@ -1,4 +1,4 @@
-# CS0 Lab - Loops
+# CS0 Lab - Loops and Unittesting
 
 Possible Points: 100
 
@@ -7,9 +7,9 @@ Write a Python program to solve the Kattis problem - Oddities [https://open.katt
 ## Lab Instructions
 
 1. Open your CS0Lab-... repo in VS Code
-2. Create lab folder **loops** inside your CS0Lab-... repository
-3. Inside the lab folder, create a file: main.py
-4. Use the partial code stub provided in main.py and test_main.py files and fix all FIXMEs. (80 points)
+2. Create lab folder **oddities** inside your CS0Lab-... repository
+3. Inside the lab folder, create two files: main.py and test_main.py
+4. Type the partial code stub provided in main.py and test_main.py files and fix all FIXMEs. (80 points)
 5. Follow best programming practices by using proper white spaces, comments, etc.
 
 ```note

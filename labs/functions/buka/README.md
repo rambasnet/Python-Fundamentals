@@ -7,7 +7,7 @@ Write a Python program to solve the Kattis problem called buka: [https://open.ka
 ## Lab Instructions
 
 1. Open your CS0Lab-... repo in VS Code
-2. Create lab folder **buka** inside your CS0Lab-... repository
+2. Create lab folder **functions** inside your CS0Lab-... repository
 3. Inside the lab folder, create a file: main.py
 4. Use the partial code stub provided in main.py file and fix all FIXMEs. (80 points)
 5. Follow best programming practices by using proper white spaces, comments, etc.

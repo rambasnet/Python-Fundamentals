@@ -23,6 +23,8 @@ def main():
   """
   # read/input the first operand into A variable using sys library's readline() method
   A = sys.stdin.readline().strip()
+  # let's check the value read...
+  print(f'{A=}', file=sys.stderr)
   # FIXME3 - using sys library, read/input the 2nd line into operator variable
   # FIXME4 - using sys library, read/input the 2nd operand into B variable
   # FIXME5 - concatenate all three variables into a single variable called equation

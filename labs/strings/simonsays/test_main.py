@@ -5,7 +5,7 @@ import main
 
 
 def test_valid_command():
-    """Test valid_command function
+    """Test valid_command function.
     """
     ans = main.valid_command("Simon says do this")
     expected = True
@@ -17,11 +17,9 @@ def test_valid_command():
     # FIXME 8: add a new case to test valid_command function
     print("All test cases passed...", file=sys.stderr)
 
-# test function must start with test_ prefix for pytest to recognize it
-
 
 def test_answer():
-    """Test answer function
+    """Test answer function.
     """
     ans = main.answer("Simon says do this")
     expected = " do this"

@@ -20,19 +20,19 @@ totalInts = 10
 
 
 def readData() -> List[int]:
-  """Read data from a file.
+    """Read data from a file.
 
-  Returns:
-      List[int]: List of integers
-  """
-  intList = []
-  # FIXME1 (20 points):
-  # Prompt user to input file name
-  # open the file; read each number one line at a time;
-  # and store it into intList list
-  # close the file
-  # return the intList
-  return intList
+    Returns:
+        List[int]: List of integers
+    """
+    intList = []
+    # FIXME1 (20 points):
+    # Prompt user to input file name
+    # open the file; read each number one line at a time;
+    # and store it into intList list
+    # close the file
+    # return the intList
+    return intList
 
 
 def sortListInAscendingOrder(lstInts: List[int]):

@@ -9,7 +9,7 @@ Write a Python program to solve the Kattis problem called thelastproblem: [https
 1. Open your CS0Lab-... repo in VS Code
 2. Create lab folder **lastproblem** inside your CS0Lab-... repository
 3. Inside the lastproblem folder, create two files: main.py and test_main.py
-4. Use the partial code stub provided in main.py file and fix all FIXMEs. (80 points)
+4. Use the partial code stub provided in main.py and test_main.py files and fix all FIXMEs. (80 points)
 5. Follow best programming practices by using proper white spaces, comments, etc.
 
 ```

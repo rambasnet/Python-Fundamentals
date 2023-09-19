@@ -6,10 +6,10 @@ Write a Python program to solve the Kattis problem called thelastproblem: [https
 
 ## Lab Instructions
 
-1. Open your CS0Lab-... repo in VS Code
-2. Create lab folder **lastproblem** inside your CS0Lab-... repository
-3. Inside the lastproblem folder, create two files: main.py and test_main.py
-4. Use the partial code stub provided in main.py and test_main.py files and fix all FIXMEs. (80 points)
+1. Open your CS0Lab-... repo in VS Code.
+2. Create lab folder called **lastproblem** inside your repository.
+3. Inside the the lab folder, create two files: main.py and test_main.py.
+4. Use the partial code stub provided and fix all FIXMEs. (80 points)
 5. Follow best programming practices by using proper white spaces, comments, etc.
 
 ```
@@ -19,7 +19,7 @@ Print as asked: nothing less; nothing more!
 Kattis is a computer program that provides specific input and expects exact output – to a space to give the correct verdict.
 ```
 
-6. Unittest all the important functions using pytest. Install pytest if required.
+6. Run unit test using pytest and create screenshot when all the test cases pass. Install pytest if required.
 
 ```bash
   $ pytest --version

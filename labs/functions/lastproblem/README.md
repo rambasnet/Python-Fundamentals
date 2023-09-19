@@ -42,7 +42,7 @@ $ git pull
 $ git status
 $ git add <filename>… - add each file in the red that is part of this lab
 $ git status
-$ git commit -m “Final Submission”
+$ git commit -m "Final Submission"
 $ git push
 $ git status
 ```

@@ -48,7 +48,7 @@ def answer(stone: int):
         str: 'Alice' if the number of stones is odd, 'Bob' otherwise
     """
     evenorodd = odd_even(stone)
-    if (evenorodd == "odd"):
+    if evenorodd == "odd":
         return "Alice"
     else:
         return "Bob"

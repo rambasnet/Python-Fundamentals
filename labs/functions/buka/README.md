@@ -26,7 +26,8 @@ Kattis is a computer program that provides specific input and expects exact outp
 
 ## Submission
 
-Add all the relevant source file(s), documents, and screenshots into the correct lab folder and do a final add, commit, and push before the due date.
+- Make sure to format the code using pep8 or black before submission.
+- Add all the relevant source file(s), documents, and screenshots into the correct lab folder and do a final add, commit, and push before the due date.
 
 ```bash
 $ git pull

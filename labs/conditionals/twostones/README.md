@@ -6,11 +6,11 @@ Write a Python program to solve the Kattis problem called twostones [https://ope
 
 ## Lab Instructions
 
-1. Open your CS0Lab-... repo in VS Code
-2. Create lab folder **twostones** inside your CS0Lab-... repository
-3. Inside the lab folder, create two files: main.py and test_main.py
-4. Type the partial code stub provided in main.py and test_main.py files and fix all FIXMEs. (80 points)
-5. Follow best programming practices by using proper white spaces, comments, etc.
+- Open your CS0Lab-... repo in VS Code
+- Create lab folder **twostones** inside your CS0Lab-... repository
+- Inside the lab folder, create two files: main.py and test_main.py
+- Type the partial code stub provided in main.py and test_main.py files and fix all FIXMEs. (80 points)
+- Follow best programming practices by using proper white spaces, comments, etc.
 
 ```note
 IMPORTANT: Never ask the user telling what data to enter for Kattis problems. Kattis knows what to enter. 
@@ -19,18 +19,19 @@ Print as asked: nothing less; nothing more!
 Kattis is a computer program that provides specific input and expects exact output – to a space to give the correct verdict.
 ```
 
-5. Unittest all the important functions using pytest. Install pytest if required.
+- Run unit test using pytest and create screenshot when all the test cases pass. Install pytest if required. Pick one of the following ways to run pytest.
 
 ```bash
   $ pytest --version
   $ pip install -U pytest
   $ pytest test_main.py
+  $ python -m pytest test_main.py
 ```
 
-6. Test the whole program manually. While testing, provide input using the same format as described in the Input section and shown in input samples.
-7. Upload only the .py scripts to Kattis for testing. You can test your solution as many times as you wish. Kattis uses its own hidden test cases to test your program against. However, your goal is to get the accepted verdict in the first try.
-8. Create screenshots showing your local testing and the kattis final Accept verdict and save them to the lab folder. (10 points)
-9. Update your README file (10 points) as shown here: https://github.com/rambasnet/csci000-astudent
+- Test the whole program manually. While testing, provide input using the same format as described in the Input section and shown in input samples.
+- Upload only the .py scripts to Kattis for testing. You can test your solution as many times as you wish. Kattis uses its own hidden test cases to test your program against. However, your goal is to get the accepted verdict in the first try.
+- Create screenshots showing your local testing and the kattis final Accept verdict and save them to the lab folder. (10 points)
+- Update your README file (10 points) as shown here: [https://github.com/rambasnet/csci000-astudent](https://github.com/rambasnet/csci000-astudent)
 
 ## Submission
 

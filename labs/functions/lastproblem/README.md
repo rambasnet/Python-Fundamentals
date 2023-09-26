@@ -20,12 +20,13 @@ Print as asked: nothing less; nothing more!
 Kattis is a computer program that provides specific input and expects exact output – to a space to give the correct verdict.
 ```
 
-6. Run unit test using pytest and create screenshot when all the test cases pass. Install pytest if required.
+6. Run unit test using pytest and create screenshot when all the test cases pass. Install pytest if required. Pick one of the following ways to run pytest.
 
 ```bash
   $ pytest --version
   $ pip install -U pytest
   $ pytest test_main.py
+  $ python -m pytest test_main.py
 ```
 
 7. Test the whole program manually. While testing, provide input using the same format as described in the Input section and shown in input samples.

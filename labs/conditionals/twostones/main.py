@@ -55,4 +55,4 @@ def answer(stone: int):
 
 
 if __name__ == "__main__":
-    main()  # call main function
+    main()

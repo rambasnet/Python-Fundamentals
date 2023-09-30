@@ -1,11 +1,11 @@
-"""Module to test functions in main.py 
+"""Module to test functions in morsecode.py 
 """
 
-import main
+import morsecode
 
 
 def test_convert_to_palindrome1():
-    actual_ans = main.convert_to_morse('AN')
+    actual_ans = morsecode.convert_to_morse('AN')
     expected_ans = '.--.'
     assert actual_ans == expected_ans
 
@@ -13,7 +13,7 @@ def test_convert_to_palindrome1():
 
 
 def test_ispalindrome1():
-    ans = main.is_palindrome('.--.')
+    ans = morsecode.is_palindrome('.--.')
     expected = 1
     assert ans == expected
 

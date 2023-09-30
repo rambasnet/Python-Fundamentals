@@ -7,18 +7,16 @@ Date: FIXME
 Read and solve - Simon Says: https://open.kattis.com/problems/simonsays  
 
 Algorithm:
-		1. Read N
-		2. Repeat N times:
-      1. Read the input string
-      2. Check if the string begins with 'Simon says'
-      3. If it does, print the rest of the string after 'Simon says', otherwise ignore the string
+    1. Read N
+    2. Repeat N times:
+        1. Read the input string
+        2. Check if the string begins with 'Simon says'
+        3. If it does, print the rest of the string after 'Simon says', otherwise ignore the string
 """
-
-import sys
 
 
 def main():
-    """Main function that solves the problem
+    """Main function that solves the problem.
     """
     # step 1. read data
     N = int(input())
@@ -28,14 +26,14 @@ def main():
     # FIXME 4 - print the answer if it returns one, otherwise ignore it
 
 
-def valid_command(command: str):
-    """Checks if the string begins with 'Simon says'
+def valid_command(command: str) -> bool:
+    """Checks if the string starts with 'Simon says'.
 
     Args:
-        command (str): string to check
+        command (str): string to check.
 
     Returns:
-        bool: True if the string begins with 'Simon says', False otherwise
+        bool: True if the string starts with 'Simon says', False otherwise.
     """
     # FIXME 5: if the command begins with 'Simon says', return True
     # otherwise, return False
@@ -43,8 +41,8 @@ def valid_command(command: str):
     return ans
 
 
-def answer(command: str):
-    """Returns answer given the command or None if the command is not valid
+def answer(command: str) -> str | None:
+    """Returns answer given the command or None if the command is not valid.
 
     Args:
         command (str): string to check

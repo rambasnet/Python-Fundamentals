@@ -9,15 +9,14 @@ Solution for Kattis problem - Morse Code Palindromes - https://open.kattis.com/p
 Given english text, the program finds if the corresponding morse code is a palindrome.
 
 Algorithm steps:
-		1. Create a dictionary to map alphabets and numbers to morse code 
-		2. Read the input english string
-    3. Convert the string into upper case english string
-    4. Convert english string into Morse Code string using the dictionary
-    5. Check if the Morse Code string is a palindrome
-      i. Print 1 if it's a palindrome
-      ii Otherwise, print 0
+1. Create a dictionary to map alphabets and numbers to morse code 
+2. Read the input english string
+3. Convert the string into upper case english string
+4. Convert english string into Morse Code string using the dictionary
+5. Check if the Morse Code string is a palindrome
+    i. Print 1 if it's a palindrome
+    ii Otherwise, print 0
 """
-
 import sys
 
 # create English to Morse Code dictionary
@@ -88,14 +87,14 @@ def convert_to_morse(english: str) -> str:
     return morse_code
 
 
-def solve():
+def solve() -> None:
     # read/input english text as a line
     english = input()
     # FIXME 4: convert english into uppercase
     upper_english = english
     print(upper_english, file=sys.stderr)
     morse_code = convert_to_morse(upper_english)
-    # FIXME 5 - call is_palindrome passing proper argument and print the result
+    # FIXME 5: call is_palindrome passing proper argument and print the result
 
 
 if __name__ == '__main__':

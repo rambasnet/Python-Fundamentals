@@ -7,23 +7,23 @@ Date: FIXME
 Read and solve - Pet: https://open.kattis.com/problems/pet 
 
 Algorithm steps:
-		1. Create a list to store the total scores of each contestant
-		2. Repeat 5 times:
-      1. Read the input line
-      2. Split the line into a list of numbers
-      3. Convert the list of strings into a list of ints
-      4. Sum the list of ints
-      5. Append the sum to the list of scores
+    1. Create a list to store the total scores of each contestant
+    2. Repeat 5 times:
+        i. Read the input line
+        ii. Split the line into a list of numbers
+        iii. Convert the list of strings into a list of ints
+        iv. Sum the list of ints
+        v. Append the sum to the list of scores
     3. Find the max score in the list of scores
     4. Find the index of the max score in the list of scores
     5. Print the index of the max score + 1 and the max score
 """
 
-import sys
+
 from typing import List
 
 
-def main():
+def main() -> None:
     """Main function that solves the problem
     """
     # step 1. create a list to store the total scores of each contestant
@@ -35,7 +35,7 @@ def main():
     # FIXME 5 - print the final output calling answer function
 
 
-def get_data():
+def get_data() -> List[int]:
     """Reads the data from std input and returns it as a list of ints
     Args:
         None
@@ -43,12 +43,11 @@ def get_data():
         List[int]: list of ints
     """
     str_nums = input().split()  # list of string numbers
-    # FIXME 6: convert str_nums int a list of ints and return it
-    pass
+    # FIXME 6: convert str_nums as list of ints and return it
 
 
-def list_sum(numbers: List[int]):
-    """Finds and returns sum of the numbers in the list
+def list_sum(numbers: List[int]) -> int:
+    """Finds and returns sum of the numbers in the list.
     Args:
         numbers: List[int]: # takes a list of numbers as a parameter
 
@@ -60,16 +59,16 @@ def list_sum(numbers: List[int]):
     return ans
 
 
-def answer(scores: List[int]):
-    """Returns the index of the max score + 1 and the max score as a string
-
+def answer(scores: List[int]) -> str:
+    """Find and return the answer as a string.
     Args:
         scores (List[int]): List of 5 contestants scores
+    Returns:
+        str: index of the max score + 1 and the max score as a string
     """
     max_score = max(scores)
     index = scores.index(max_score)
     # FIXME 8: return the index+1 and the max number in the list as a string
-    pass
 
 
 if __name__ == "__main__":

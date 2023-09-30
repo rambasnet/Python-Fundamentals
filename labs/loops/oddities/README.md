@@ -8,8 +8,8 @@ Write a Python program to solve the Kattis problem - Oddities [https://open.katt
 
 1. Open your CS0Lab-... repo in VS Code
 2. Create lab folder **oddities** inside your CS0Lab-... repository
-3. Inside the lab folder, create two files: main.py and test_main.py
-4. Type the partial code stub provided in main.py and test_main.py files and fix all FIXMEs. (80 points)
+3. Inside the lab folder, create two files.
+4. Type the partial code stub provided and fix all FIXMEs. (80 points)
 5. Follow best programming practices by using proper white spaces, comments, etc.
 
 ```note
@@ -24,12 +24,12 @@ Kattis is a computer program that provides specific input and expects exact outp
 ```bash
   $ pytest --version
   $ pip install -U pytest
-  $ pytest test_main.py
-  $ python -m pytest test_main.py
+  $ pytest .
+  $ python -m pytest .
 ```
 
 7. Test the whole program manually. While testing, provide input using the same format as described in the Input section and shown in input samples.
-8. Upload only the .py scripts to Kattis for testing. You can test your solution as many times as you wish. Kattis uses its own hidden test cases to test your program against. However, your goal is to get the accepted verdict in the first try.
+8. Upload only the solution script to Kattis. You can test your solution as many times as you wish. Kattis uses its own hidden test cases to test your program against. However, your goal is to get the accepted verdict in the first try.
 9. Create screenshots showing your local testing and the kattis final Accept verdict and save them to the lab folder. (10 points)
 10. Update your README file (10 points) as shown here: [https://github.com/rambasnet/csci000-astudent](https://github.com/rambasnet/csci000-astudent)
 

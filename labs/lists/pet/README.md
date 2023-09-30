@@ -7,9 +7,9 @@ Write a Python program to solve the Kattis problem called pet: [https://open.kat
 ## Lab Instructions
 
 1. Open your CS0Lab-... repo in VS Code
-2. Create lab folder **pet** inside your CS0Lab-... repository
-3. Inside the pet folder, create two files: main.py and test_main.py
-4. Type the partial code stub provided in main.py and test_main.py files and fix all FIXMEs. (80 points)
+2. Create lab folder **lists** inside your CS0Lab-... repository
+3. Inside the pet folder, create two files: pet.py and test_pet.py
+4. Type the partial code stub provided in the lab folder and fix all FIXMEs. (80 points)
 5. Follow best programming practices by using proper white spaces, comments, etc.
 
 ```text
@@ -24,13 +24,14 @@ Kattis is a computer program that provides specific input and expects exact outp
 ```bash
   $ pytest --version
   $ pip install -U pytest
-  $ pytest test_main.py
+  $ pytest .
+  $ python -m pytest .
 ```
 
 7. Test the whole program manually. While testing, provide input using the same format as described in the Input section and shown in input samples.
-8. Upload only the .py scripts to Kattis for testing. You can test your solution as many times as you wish. Kattis uses its own hidden test cases to test your program against. However, your goal is to get the accepted verdict in the first try.
+8. Upload only the solution script to Kattis for testing. You can test your solution as many times as you wish. Kattis uses its own hidden test cases to test your program against. However, your goal is to get the accepted verdict in the first try.
 9. Create screenshots showing your local testing and the kattis final Accept verdict and save them to the lab folder. (10 points)
-10. Update your README file (10 points) as shown here: https://github.com/rambasnet/csci000-astudent
+10. Update your README file (10 points) as shown here: [https://github.com/rambasnet/csci000-astudent](https://github.com/rambasnet/csci000-astudent)
 
 ## Submission
 
@@ -46,5 +47,4 @@ $ git push
 $ git status
 ```
 
-- Check and make sure the files are actually pushed to your GitHub repo on github.com.
-NOTE: Do not add and commit to this lab folder after the due date as it may be considered late submission!
+- Check and make sure the files are actually pushed to your GitHub repo.

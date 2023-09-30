@@ -7,17 +7,15 @@ Date: FIXME
 Read and solve - Oddities: https://open.kattis.com/problems/oddities 
 
 Algorithm:
-		1. Read N
-		2. Repeat N times:
-      1. Read the input number
-      2. Check if the number is odd or even
-      3. Print the result as shown in the sample output
+    1. Read N
+    2. Repeat N times:
+        i. Read the input number
+        ii. Check if the number is odd or even
+        iii. Print the result as shown in the sample output
 """
 
-import sys
 
-
-def odd_even(number: int):
+def odd_even(number: int) -> str:
     """Checks if the number is odd or even
 
     Args:
@@ -32,20 +30,18 @@ def odd_even(number: int):
     return ans
 
 
-def main():
+def main() -> None:
     """Main function that solves the problem
     """
     # step 1. read data
     N = read_int_data()
-    # FIXME 2 - step 2. repeat N times
-    # FIXME 2.1 - read the input number
-    # FIXME 2.2 - call answer function passing the number as an argument
-    # FIXME 2.3 - print the answer as shown in the sample output
-
-# Function reads the data from std input and returns it
+    # FIXME 2 - step 2. repeat the following N times
+    # FIXME 2.i - read the input number using read_int_data function
+    # FIXME 2.ii - call answer function passing the number as an argument
+    # FIXME 2.iii - print the answer as shown in the sample output
 
 
-def read_int_data():
+def read_int_data() -> int:
     """Reads the data from std input and returns it
 
     Returns:
@@ -53,10 +49,9 @@ def read_int_data():
     """
     # FIXME 3: using input read and store the data into data variable
     # FIXME 4: convert the data into an int and return it
-    pass
 
 
-def answer(num: int):
+def answer(num: int) -> str:
     """Creates the final answer and returns it given the number
 
     Args:
@@ -70,5 +65,5 @@ def answer(num: int):
 
 
 if __name__ == "__main__":
-    # FIXME 10: call main function
+    # FIXME 10: call correct entry function
     pass

@@ -29,7 +29,7 @@ Kattis is a computer program that provides specific input and expects exact outp
 ```
 
 - Test the whole program manually. While testing, provide input using the same format as described in the Input section and shown in input samples.
-- Upload only the .py scripts to Kattis for testing. You can test your solution as many times as you wish. Kattis uses its own hidden test cases to test your program against. However, your goal is to get the accepted verdict in the first try.
+- Upload only the solution script to Kattis for testing. You can test your solution as many times as you wish. Kattis uses its own hidden test cases to test your program against. However, your goal is to get the accepted verdict in the first try.
 - Create screenshots showing your local testing and the kattis final Accept verdict and save them to the lab folder. (10 points)
 - Update your README file (10 points) as shown here: [https://github.com/rambasnet/csci000-astudent](https://github.com/rambasnet/csci000-astudent)
 
@@ -43,9 +43,9 @@ $ git pull
 $ git status
 $ git add <filename>… - add each file in the red that is part of this lab
 $ git status
-$ git commit -m “Final Submission”
+$ git commit -m "Final Submission"
 $ git push
 $ git status
 ```
 
-- Check and make sure the files are actually pushed to your GitHub repo on github.com.
+- Check and make sure the files are actually pushed to your GitHub repo.

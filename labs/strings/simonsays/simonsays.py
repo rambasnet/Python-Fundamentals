@@ -14,6 +14,8 @@ Algorithm:
         3. If it does, print the rest of the string after 'Simon says', otherwise ignore the string
 """
 
+from typing import Union
+
 
 def main():
     """Main function that solves the problem.
@@ -41,7 +43,7 @@ def valid_command(command: str) -> bool:
     return ans
 
 
-def answer(command: str) -> str | None:
+def answer(command: str) -> Union[str, None]:
     """Returns answer given the command or None if the command is not valid.
 
     Args:

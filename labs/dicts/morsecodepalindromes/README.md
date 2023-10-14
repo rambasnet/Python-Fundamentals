@@ -7,8 +7,8 @@ Write a Python program to solve the Kattis problem Morse Code Palindrome: [https
 ## Lab Instructions
 
 1. Open your CS0Lab-... repo in VS Code
-2. Create a lab folder **morsecodepalindromes** inside your CS0Lab-... repository
-3. Inside the lab folder, create two files provided in the lab folder.
+2. Create a lab folder **dicts** inside your CS0Lab-... repository
+3. Inside the lab folder, create two files morsecode.py and test_morsecode.py.
 4. Type the partial code stub provided and fix all FIXMEs. (80 points)
 5. Follow best programming practices by using proper white spaces, comments, etc.
 

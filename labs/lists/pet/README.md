@@ -1,4 +1,4 @@
-# CS0 Lab - List and Unit testing
+# CS0 Lab - Lists and Unit testing
 
 Possible Points: 100
 
@@ -8,7 +8,7 @@ Write a Python program to solve the Kattis problem called pet: [https://open.kat
 
 1. Open your CS0Lab-... repo in VS Code
 2. Create lab folder **lists** inside your CS0Lab-... repository
-3. Inside the pet folder, create two files: pet.py and test_pet.py
+3. Inside the lab folder, create two files: pet.py and test_pet.py
 4. Type the partial code stub provided in the lab folder and fix all FIXMEs. (80 points)
 5. Follow best programming practices by using proper white spaces, comments, etc.
 

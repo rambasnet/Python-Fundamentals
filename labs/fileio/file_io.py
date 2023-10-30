@@ -36,15 +36,23 @@ def readData() -> List[int]:
 
 
 def sortListInAscendingOrder(lstInts: List[int]):
+    """Sort the provided list in ascending order.
+
+    Args:
+        lstInts (List[int]): the list to be sorted.
+    """
     # FIXME2
     # sort lstInts list in ascending order
-    pass
 
 
-def sortListInDescendingOrder(lstInts):
+def sortListInDescendingOrder(lstInts: List[int]):
+    """Sort the provided list in descending order.
+
+    Args:
+        lstInts (List[int]): the list to be sorted.
+    """
     # FIXME3
     # sort lstInts in descending order
-    pass
 
 
 def printList(printFile, lstInts: List[int]):

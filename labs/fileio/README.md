@@ -17,8 +17,8 @@ Python lab to explore working with files.
 ```bash
 $ pytest --version
 $ pip install -U pytest
-$ pytest test_main.py
-$ python -m pytest test_main.py
+$ pytest test_*.py
+$ python -m pytest test_*.py
 ```
 
 7. Test the whole program manually.

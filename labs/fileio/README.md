@@ -22,7 +22,7 @@ $ python -m pytest test_main.py
 ```
 
 7. Test the whole program manually.
-8. Create screenshots showing your local test results (pytest and manual test of main.py) and save them to the lab folder. (20 points)
+8. Create screenshots showing your local test results (pytest and manual test of main script) and save them to the lab folder. (20 points)
 9. Update your README file (10 points) as shown here: [https://github.com/rambasnet/csci000-astudent](https://github.com/rambasnet/csci000-astudent)
 
 ## Submission

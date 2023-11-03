@@ -15,14 +15,8 @@ import settings
 from game import play_game, clear_screen, pause, get_menu_option
 
 
-def main() -> None:
-    """ 
-    Main function for the game.
-    """
+def game_intro() -> None:
     clear_screen()
-    data = functions.read_data(settings.SCORE_BOARD_FILE)
-    if not data:
-        data = []
     print('Welcome to the game...')
     time.sleep(1)
     print(settings.ASCII)
@@ -30,6 +24,17 @@ def main() -> None:
     print("Let's start by entering your name.")
     print('Are you ready?')
     pause()
+
+
+def main() -> None:
+    """ 
+    Main function for the game.
+    """
+    game_intro()
+    data = functions.read_data(settings.SCORE_BOARD_FILE)
+    if not data:
+        data = []
+
     # Ask who's playing?
     player = functions.get_player_info()
     if not functions.find_player_in_db(data, player['name']):

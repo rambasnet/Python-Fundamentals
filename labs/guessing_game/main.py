@@ -9,6 +9,7 @@ __course__ = "CSCI 110 Lab"
 __semester__ = "Fall 2023"
 
 from typing import Any, List, Dict
+import time
 from utility import functions
 import settings
 
@@ -51,15 +52,20 @@ def get_menu_option() -> int:
 
 
 def play_game(name: str, max_tries: int) -> bool:
-    print(f"Let's play Guess the Number Game, {name}! Good luck...")
+    print(f"Let's play the Game, {name}! Good luck...")
     rand = functions.get_random_number()
     print('I am thinking of a number between 1 and 20.')
     print('You have 5 chances to guess the number.')
     tries = 0
     while tries <= max_tries:
-        # FIXME: Add code to get the user's guess using the correct function in utility/functions.py.
-        # FIXME: check if the user's guess is correct using the correct function in utility/functions.py.
+        # FIXME: Add code to get the user's guess using the correct
+        # function in utility/functions.py.
+        # FIXME: check if the user's guess is correct using the correct
+        # function in utility/functions.py.
         # FIXME: If the user's guess is correct, print a message and return True for a win.
+        # FIXME: If the user's guess is incorrect,
+        # print a message saying their guess is too large or too small
+        # and increment the number of tries.
         return True
     else:
         return False  # return False for a loss
@@ -73,9 +79,13 @@ def main() -> None:
     data = functions.read_data(settings.SCORE_BOARD_FILE)
     if not data:
         data = []
-    print('Welcome to the Guess the Number Game!')
-    print('=====================================')
+    print('Welcome to the game...')
+    time.sleep(1)
+    print(settings.ASCII)
+    time.sleep(1)
     print("Let's start by entering your name.")
+    print('Are you ready?')
+    pause()
     # Ask who's playing?
     player = functions.get_player_info()
     if not functions.find_player_in_db(data, player['name']):

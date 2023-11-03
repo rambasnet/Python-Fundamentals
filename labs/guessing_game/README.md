@@ -8,7 +8,7 @@ Python lab to explore working with YAML files.
 
 1. Open your CS0Lab-... repo in VS Code
 2. Create a lab folder **guessing_game** inside your CS0Lab-... repository
-3. Inside the lab folder, create the project folder structre as provided in the lab.
+3. Inside the lab folder, create the project folder structre similar to this lab folder.
 4. Type the partial code stub provided and fix all FIXMEs. (80 points)
 5. Follow best programming practices by using proper white spaces, comments, etc.
 6. Unittest all the important functions using pytest. Install pyyaml and pytest if required.

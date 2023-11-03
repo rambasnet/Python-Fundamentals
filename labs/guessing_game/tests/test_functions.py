@@ -15,7 +15,7 @@ def test_save_data() -> None:
     assert data == my_data
 
 
-def test_save_data() -> None:
+def test_save_data1() -> None:
     """Tests save_data function.
     """
     file_name = "test_data1.yaml"

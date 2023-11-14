@@ -37,8 +37,11 @@ def main() -> None:
 
     # Ask who's playing?
     player = functions.get_player_info()
-    if not functions.find_player_in_db(data, player['name']):
+    p = functions.find_player_in_db(data, player['name'])
+    if p is None:
         data.append(player)
+    else:
+        player = p
 
     while True:
         clear_screen()

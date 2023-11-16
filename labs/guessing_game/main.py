@@ -55,12 +55,11 @@ def main() -> None:
         elif option == 2:
             view_scoreboard(data)
         elif option == 3:
-            # FIXME - Update data to include the new player's info.
-            # FIXME - Add code to save the data to the file using correct function in utility/functions.py.
             functions.save_data(settings.SCORE_BOARD_FILE, data)
             print(
                 f'saving score board to the file {settings.SCORE_BOARD_FILE}')
             print("Goodbye!")
+            input('Enter to exit...')
             break
 
 

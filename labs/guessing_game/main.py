@@ -70,6 +70,7 @@ def view_scoreboard(data: List[Any]) -> None:
     Args:
         data (dict): data of all the players in the database
     """
+    # FIXME - print data in tabular format
 
 
 if __name__ == "__main__":

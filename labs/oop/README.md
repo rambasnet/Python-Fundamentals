@@ -4,22 +4,44 @@ Possible Points: 100
 
 Write a Python program to solve the Kattis problem - Bijele - [https://open.kattis.com/problems/bijele](https://open.kattis.com/problems/bijele) . Read the problem statement carefully to design a correct solution using OOP and unittest.
 
-## Lab Instructions
+## Install Kattis-cli
 
-1. Open your CS0Lab-... repo in VS Code
-2. Create lab folder **oop** inside your CS0Lab-... repository
-3. Inside the lab folder, create two files.
-4. Type the partial code stub provided and fix all FIXMEs. (80 points)
-5. Follow best programming practices by using proper white spaces, comments, etc.
+- if you've installed kattis-cli before, update it to the latest version
 
-```note
-IMPORTANT: Never ask the user telling what data to enter for Kattis problems. Kattis knows what to enter.
-Directly read the input. Print only the answer as displayed in the sample output. 
-Print as asked: nothing less; nothing more!
-Kattis is a computer program that provides specific input and expects exact output – to a space to give the correct verdict.
+```bash
+$ pip install -U kattis-cli
+$ python -m pip install -U kattis-cli
 ```
 
-6. Run unit test using pytest and create screenshot when all the test cases pass. Install pytest if required. Pick one of the following ways to run pytest.
+- if you've not installed kattis-cli before, install it
+    
+```bash
+    $ pip install kattis-cli
+    $ python -m pip install kattis-cli
+```
+
+## Setup Kattis-cli
+
+- setup kattis-cli by providing logging in to Kattis using your Kattis username and password
+
+```bash
+kattis setup
+```
+
+## Lab Instructions
+
+- Open your CS0Lab-... repo in VS Code
+- Create lab folder **oop** inside your CS0Lab-... repository
+- Inside the lab folder, download the problem metadata and sample files for the problem **bijele** using Kattis-clis
+
+```bash
+kattis get bijele
+```
+
+- Inside **bijele** folder, type the partial code stub provided and fix all FIXMEs. (80 points)
+- Follow best programming practices by using proper white spaces, comments, etc.
+`
+- Run unit test using pytest and create screenshot when all the test cases pass. Install pytest if required. Pick one of the following ways to run pytest.
 
 ```bash
   $ pytest --version
@@ -28,10 +50,25 @@ Kattis is a computer program that provides specific input and expects exact outp
   $ python -m pytest .
 ```
 
-7. Test the whole program manually. While testing, provide input using the same format as described in the Input section and shown in input samples.
-8. Upload only the solution script to Kattis. You can test your solution as many times as you wish. Kattis uses its own hidden test cases to test your program against. However, your goal is to get the accepted verdict in the first try.
-9. Create screenshots showing your local testing and the kattis final Accept verdict and save them to the lab folder. (10 points)
-10. Update your README file (10 points) as shown here: [https://github.com/rambasnet/csci000-astudent](https://github.com/rambasnet/csci000-astudent)
+
+- Test the whole program using Katts-cli. (10 points)
+
+```bash
+$ cd bijele
+$ kattis test
+```
+
+- Create the screenshot of the correct local test result. (10 points)
+- Submit the solution to Kattis using Kattis-cli. (10 points)
+
+```bash
+$ cd bijele
+$ kattis submit
+```
+
+- Create screenshot of the kattis final Accepted verdict and save it to the lab folder. (10 points)
+
+- Update your README file (10 points) as shown here: [https://github.com/rambasnet/csci000-astudent](https://github.com/rambasnet/csci000-astudent)
 
 ## Submission
 

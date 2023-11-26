@@ -2,7 +2,7 @@
 Module to test the Chess class. 
 """
 
-from chess import Chess
+from labs.oop.bijele.chess import Chess
 
 
 def test__init__() -> None:

@@ -11,7 +11,7 @@ Algorithm:
     5. print the difference as shown in the sample output
 """
 
-from chess import Chess
+from labs.oop.bijele.chess import Chess
 
 
 def main() -> None:

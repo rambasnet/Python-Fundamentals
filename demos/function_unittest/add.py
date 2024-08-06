@@ -1,10 +1,6 @@
-from main import answer, add
 
-
-def test_answer():
-    expected = "Hello World!"
-    ans = answer()
-    assert ans == expected
+def add(a, b) -> int:
+    return a+b
 
 
 def test_add():

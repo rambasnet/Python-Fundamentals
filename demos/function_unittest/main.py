@@ -13,36 +13,40 @@ Algorithm Steps:
 ...
 """
 
+
 def answer() -> str:
-  """Function returns "Hello World!" string.
+    """Function returns "Hello World!" string.
 
-  Returns:
-      str: returns "Hello World!"
-  """
-  return 'Hello World!'
+    Returns:
+        str: returns "Hello World!"
+    """
+    return 'Hello World!'
 
-def add(a: int, b:int) -> int:
-  """Function adds two integers and returns the sum.
 
-  Args:
-      a (int): 1st operand
-      b (int): 2nd operand
+def add(a: int, b: int) -> int:
+    """Function adds two integers and returns the sum.
 
-  Returns:
-      int: return sum of a and b
-  """
-  return a+b
+    Args:
+        a (int): 1st operand
+        b (int): 2nd operand
+
+    Returns:
+        int: return sum of a and b
+    """
+    return a+b
+
 
 def main():
-  """Main function that solves the problem.
-  """
+    """Main function that solves the problem.
+    """
 
-  # Read data
-  # call anwer() function
-  # print final answer
-  ans = answer()
-  print(ans)
+    # Read data
+    # call anwer() function
+    # print final answer
+    ans = answer()
+    print(ans)
+
 
 if __name__ == "__main__":
-  # call main() if the module is run as the main module
-  main()
+    # call main() if the module is run as the main module
+    main()

@@ -1,7 +1,0 @@
-words
-=====
-apple
-ball
-cat
-dog
-zebra

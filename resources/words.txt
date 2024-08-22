@@ -1,6 +1,0 @@
-apple
-ball
-cat
-dog
-elephant
-zebra

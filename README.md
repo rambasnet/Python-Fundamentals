@@ -8,7 +8,7 @@ See [paper.md](paper.md) file for statement of need.
 
 ## Notebook mapping with corresponding book chapter
 
-Note: If book chapter is missing, texbook doesn't provide one on the topic
+Note: If book chapter is missing, texbook doesn't provide one on the topic; all the notebooks are in **notebooks** folder
 
 | Notebook -> | Think Python3 Textbook |
 | ---------   | ---------- |
@@ -48,7 +48,12 @@ Note: If book chapter is missing, texbook doesn't provide one on the topic
 
 ## PDF Format
 
-- pdf version of all the notebooks can be found in [pdfs](https://github.com/rambasnet/Python-Notebooks/tree/master/pdfs) folder
+- pdf version of all the notebooks can be generated using the following script from a Terminal on Linux system
+- PDF file for each notebook file will be generated and stored in ./pdfs folder
+
+```bash
+bash generatepdfs.sh
+```
 
 ## Who can use these notebooks
 
@@ -118,3 +123,4 @@ Contributions are accepted via pull requests. You can also open issues on bugs, 
 &copy; 2019 Ram Basnet and T. Doleck. Permission is granted to copy, distribute and/or modify this document
 under the terms of the GNU Free Documentation License, Version 1.3
 or any later version published by the Free Software Foundation. See LICENSE file for details.
+

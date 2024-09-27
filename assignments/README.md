@@ -9,13 +9,13 @@
 | **GitHub Username**   | FIXME |
 | **Repository URL**    | FIXME |
 
-## Labs
+## Assignments
 
-### Lab 0
+### Assignment 0
 
 | Name | Value |
 | :--- | :--- |
-| Name          | Lab 0 - Hello World! |
+| Name          | A0 - Hello World! |
 | Description   | Setting up repo and dev tools |
 | Due Date      | FIXME |
 | Status        | in progress / completed |

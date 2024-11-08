@@ -4,9 +4,10 @@
 $ python3 fibo.py 10
 """
 
-import math
+import sys
 
-def fib(n):    
+
+def fib(n: int) -> None:
     """
     prints Fibonacci series up to nth term
     """
@@ -19,7 +20,8 @@ def fib(n):
         i += 1
     print()
 
-def fib2(n):   
+
+def fib2(n: int) -> list[int]:
     """
     returns list of Fibonacci series up to nth term
     """
@@ -31,12 +33,14 @@ def fib2(n):
     return result
 
 
-def main():
-    import sys
+def main() -> None:
+    """Main function
+    """
     fib(5)
     print(fib2(5))
     fib(int(sys.argv[1]))
     print(fib2(int(sys.argv[1])))
+
 
 if __name__ == "__main__":
     main()

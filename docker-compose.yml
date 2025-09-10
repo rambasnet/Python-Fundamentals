@@ -1,0 +1,9 @@
+services:
+  container:
+    build:
+      context: ./ # Use the current directory as the build context
+      dockerfile: Dockerfile
+    working_dir: /root
+    volumes:
+      - ./:/root/
+    command: ["sh", "-c", "bash generatepdfs.sh"]

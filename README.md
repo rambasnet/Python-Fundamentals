@@ -50,9 +50,10 @@ Note: If book chapter is missing, texbook doesn't provide one on the topic; all 
 
 - pdf version of all the notebooks can be generated using the following script from a Terminal on Linux system
 - PDF file for each notebook file will be generated and stored in ./pdfs folder
+- Install Docker and run the following commands from the Terminal in the root folder of this repo
 
 ```bash
-bash generatepdfs.sh
+docker-compose up --build
 ```
 
 ## Who can use these notebooks

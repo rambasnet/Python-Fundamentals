@@ -10,41 +10,41 @@ See [paper.md](paper.md) file for statement of need.
 
 Note: If book chapter is missing, texbook doesn't provide one on the topic; all the notebooks are in **notebooks** folder
 
-| Notebook -> | Think Python3 Textbook |
-| ---------   | ---------- |
-| [Ch01-Introduction](Ch01-Introduction.ipynb) | Chapter 1: The way of the program |
-| [Ch02-1-Data, Variables, Std IO](Ch02-1-Data-Variables-StdIO.ipynb) | Chapter 2: Data, Variables and Standard IO |
-| [Ch02-2-BitwiseOperators](Ch02-2-BitwiseOperators.ipynb) | Number Systems & Bitwise Operators |
-| [Ch03-1-Functions-Built-in](Ch03-1-Functions-Built-in.ipynb) | Examples of some built-in functions |
-| [Ch03-2-Functions-Library](Ch03-2-Functions-Library.ipynb) | Examples of standard libraries, e.g., math                |
-| [Ch03-3-Functions-UserDefined](Ch03-3-Functions-UserDefined.ipynb)| Chapter 4 and 6: Functions and Fruitful functions |
-| [Ch03-4-Functions-Advanced](Ch03-4-Functions-Advanced.ipynb) | Some advanced topics on function |
-| [Ch04-Conditionals](Ch04-Conditionals.ipynb) | Chapter 5: Conditionals  |
-| [Ch05-Iterations](Ch05-Iterations.ipynb) | Chapter 7: Iteration - for and while loops |
-| [Ch06-Strings](Ch06-Strings.ipynb) | Chapter 8: Strings |
-| [Ch07-Tuples](Ch07-Tuples.ipynb) | Chapter 9: Tuples |
-| [Ch08-1-Lists](Ch08-1-Lists.ipynb) | Chapter 11: Lists  |
-| [Ch08-2-Lists-Advanced](Ch08-2-Lists-Comprehension-Lambda.ipynb) | List comprehension, Lambda function, map, reduce, filter  |
-| [Ch09-1-Dictionaries](Ch09-1-Dictionaries.ipynb) | Chapter 20: Dictionaries |
-| [Ch09-2-Built-in-DataStructures](Ch09-2-Built-in-DataStructures.ipynb) | zip, set, Collections: OrderedDict, defaultdict, Counter  |
-| [Ch10-1-Files](Ch10-1-Files.ipynb) | Chapter 13: Files - with, open, text file |
-| [Ch10-2-Files-Advanced](Ch10-2-Files-Advanced.ipynb)  | Chapter 13: urllib, pickle, binary files, checksums  |
-| [Ch11-Turtles-Events](Ch11-Turtles-Events.ipynb) | Chapter 3 & 10 |
-| [Ch12-ModulesAndPackages](Ch12-Modules.ipynb) | Chapter 12: Modules - built-in and user-defined |
-| [Ch13-Recursion](Ch13-Recursion.ipynb) | Chapter 18: Recursion  |
-| [Ch14-OOP](Ch14-OOP.ipynb) | Chapter 15, 16 Classes and Basics  |
-| [Ch15-Overloading-Polymorphism](Ch15-Overloading-Polymorphism.ipynb) | Chapter 21 and 22 |
-| [Ch16-Exceptions](Ch16-Exceptions.ipynb) | Chapter 19 Exceptions  |
-| [Ch17-PyGame](Ch17-PyGame.ipynb) | Chapter 17 PyGame |
-| [Ch18-Inheritance](Ch18-Inheritance.ipynb) | Chapter 23 Inheritance |
-| [Ch19-Unittest](Ch19-UnitTest.ipynb) | UnitTest Framework |
-| [Ch20-LinkedLists](Ch20-LinkedLists.ipynb) | Chapter 24 Linked Lists |
-| [Ch21-Stacks](Ch21-Stacks.ipynb) | Chapter 25 Stacks |
-| [Ch22-Queues](Ch22-Queues.ipynb) | Chapter 26 Queues |
-| [Ch23-Trees](Ch23-Trees.ipynb) | Chapter 25 Trees |
-| [Ch24-CodeOptimization](Ch24-CodeOptimization-ExecutionTime.ipynb) | Code Optimization |
-| [Ch25-DynamicProgramming](Ch25-DynamicProgramming.ipynb) | Intro to Dynamic Programming |
-| [Ch26-Sqlite](Ch26-SqliteDB.ipynb) | Sqlite Database |
+| Notebook ->                                                            | Think Python3 Textbook                                   |
+| ---------------------------------------------------------------------- | -------------------------------------------------------- |
+| [Ch01-Introduction](Ch01-Introduction.ipynb)                           | Chapter 1: The way of the program                        |
+| [Ch02-1-Data, Variables, Std IO](Ch02-1-Data-Variables-StdIO.ipynb)    | Chapter 2: Data, Variables and Standard IO               |
+| [Ch02-2-BitwiseOperators](Ch02-2-BitwiseOperators.ipynb)               | Number Systems & Bitwise Operators                       |
+| [Ch03-1-Functions-Built-in](Ch03-1-Functions-Built-in.ipynb)           | Examples of some built-in functions                      |
+| [Ch03-2-Functions-Library](Ch03-2-Functions-Library.ipynb)             | Examples of standard libraries, e.g., math               |
+| [Ch03-3-Functions-UserDefined](Ch03-3-Functions-UserDefined.ipynb)     | Chapter 4 and 6: Functions and Fruitful functions        |
+| [Ch03-4-Functions-Advanced](Ch03-4-Functions-Advanced.ipynb)           | Some advanced topics on function                         |
+| [Ch04-Conditionals](Ch04-Conditionals.ipynb)                           | Chapter 5: Conditionals                                  |
+| [Ch05-Iterations](Ch05-Iterations.ipynb)                               | Chapter 7: Iteration - for and while loops               |
+| [Ch06-Strings](Ch06-Strings.ipynb)                                     | Chapter 8: Strings                                       |
+| [Ch07-Tuples](Ch07-Tuples.ipynb)                                       | Chapter 9: Tuples                                        |
+| [Ch08-1-Lists](Ch08-1-Lists.ipynb)                                     | Chapter 11: Lists                                        |
+| [Ch08-2-Lists-Advanced](Ch08-2-Lists-Comprehension-Lambda.ipynb)       | List comprehension, Lambda function, map, reduce, filter |
+| [Ch09-1-Dictionaries](Ch09-1-Dictionaries.ipynb)                       | Chapter 20: Dictionaries                                 |
+| [Ch09-2-Built-in-DataStructures](Ch09-2-Built-in-DataStructures.ipynb) | zip, set, Collections: OrderedDict, defaultdict, Counter |
+| [Ch10-1-Files](Ch10-1-Files.ipynb)                                     | Chapter 13: Files - with, open, text file                |
+| [Ch10-2-Files-Advanced](Ch10-2-Files-Advanced.ipynb)                   | Chapter 13: urllib, pickle, binary files, checksums      |
+| [Ch11-Turtles-Events](Ch11-Turtles-Events.ipynb)                       | Chapter 3 & 10                                           |
+| [Ch12-ModulesAndPackages](Ch12-Modules.ipynb)                          | Chapter 12: Modules - built-in and user-defined          |
+| [Ch13-Recursion](Ch13-Recursion.ipynb)                                 | Chapter 18: Recursion                                    |
+| [Ch14-OOP](Ch14-OOP.ipynb)                                             | Chapter 15, 16 Classes and Basics                        |
+| [Ch15-Overloading-Polymorphism](Ch15-Overloading-Polymorphism.ipynb)   | Chapter 21 and 22                                        |
+| [Ch16-Exceptions](Ch16-Exceptions.ipynb)                               | Chapter 19 Exceptions                                    |
+| [Ch17-PyGame](Ch17-PyGame.ipynb)                                       | Chapter 17 PyGame                                        |
+| [Ch18-Inheritance](Ch18-Inheritance.ipynb)                             | Chapter 23 Inheritance                                   |
+| [Ch19-Unittest](Ch19-UnitTest.ipynb)                                   | UnitTest Framework                                       |
+| [Ch20-LinkedLists](Ch20-LinkedLists.ipynb)                             | Chapter 24 Linked Lists                                  |
+| [Ch21-Stacks](Ch21-Stacks.ipynb)                                       | Chapter 25 Stacks                                        |
+| [Ch22-Queues](Ch22-Queues.ipynb)                                       | Chapter 26 Queues                                        |
+| [Ch23-Trees](Ch23-Trees.ipynb)                                         | Chapter 25 Trees                                         |
+| [Ch24-CodeOptimization](Ch24-CodeOptimization-ExecutionTime.ipynb)     | Code Optimization                                        |
+| [Ch25-DynamicProgramming](Ch25-DynamicProgramming.ipynb)               | Intro to Dynamic Programming                             |
+| [Ch26-Sqlite](Ch26-SqliteDB.ipynb)                                     | Sqlite Database                                          |
 
 ## PDF Format
 
@@ -120,7 +120,4 @@ Contributions are accepted via pull requests. You can also open issues on bugs, 
 
 ## Copyright and License
 
-&copy; 2019 Ram Basnet and T. Doleck. Permission is granted to copy, distribute and/or modify this document
-under the terms of the GNU Free Documentation License, Version 1.3
-or any later version published by the Free Software Foundation. See LICENSE file for details.
-
+- MIT License

@@ -6,6 +6,10 @@ The example module supplies one function, factorial().  For example,
 120
 """
 
+import math
+import doctest
+
+
 def factorial(n):
     """ given a positive integer n, returns its factorial 
     >>> factorial(1)
@@ -35,7 +39,6 @@ def factorial(n):
         ...
     OverflowError: n too large
     """
-    import math
     if n < 0:
         raise ValueError("n must be >= 0")
     if math.floor(n) != n:
@@ -43,28 +46,30 @@ def factorial(n):
 
     if n+1 == n:  # catch a value like 1e300
         raise OverflowError("n too large")
-    
+
     fact = 1
     n = int(n)
     for i in range(1, n+1):
         fact *= i
     return fact
 
+
 def _test1():
     print('test cases with assert statement called')
     assert factorial(1) == 1, "1! != 1"
     assert factorial(5) == 120, "5! != 120"
     assert factorial(20) == 2432902008176640000
-    
+
     # factorial of -ve integer
     # factorial of non-integer
     print('all test cases passed!')
 
+
 def _test2():
     print("docttest.testmod() called")
-    import doctest
     doctest.testmod()
     print('all test cases passed!')
+
 
 if __name__ == "__main__":
     import sys

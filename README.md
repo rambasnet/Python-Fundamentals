@@ -37,7 +37,7 @@ Note: If book chapter is missing, texbook doesn't provide one on the topic; all 
 | [Ch16-Exceptions](notebooks/Ch16-Exceptions.ipynb)                               | Chapter 19 Exceptions                                    |
 | [Ch17-PyGame](notebooks/Ch17-PyGame.ipynb)                                       | Chapter 17 PyGame                                        |
 | [Ch18-Inheritance](notebooks/Ch18-Inheritance.ipynb)                             | Chapter 23 Inheritance                                   |
-| [Ch19-Unittest](notebooks/Ch19-UnitTest.ipynb)                                   | UnitTest Framework                                       |
+| [Ch19-Unittest](notebooks/Ch19-UnittestLibrary.ipynb)                            | UnitTest Framework                                       |
 | [Ch20-LinkedLists](notebooks/Ch20-LinkedLists.ipynb)                             | Chapter 24 Linked Lists                                  |
 | [Ch21-Stacks](notebooks/Ch21-Stacks.ipynb)                                       | Chapter 25 Stacks                                        |
 | [Ch22-Queues](notebooks/Ch22-Queues.ipynb)                                       | Chapter 26 Queues                                        |

@@ -1,8 +1,17 @@
 # Trees
 <a href="https://colab.research.google.com/github/rambasnet/Python-Fundamentals/blob/master/notebooks/Ch23-Trees.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
-http://openbookproject.net/thinkcs/python/english3e/trees.html
-- like linked lists, trees are made up of nodes
+## External Resources
+- Think Python - [http://openbookproject.net/thinkcs/python/english3e/trees.html](http://openbookproject.net/thinkcs/python/english3e/trees.html)
+
+
+## Overview
+
+- like linked lists, trees are made up of nodes or objects that contain data and references to other nodes
+- unlike linked lists, trees can have multiple references to other nodes
+- trees are hierarchical data structures that are used to represent relationships between data items
+- trees are widely used in computer science for various applications such as searching, sorting, and organizing data
+- common types of trees include binary trees, binary search trees, AVL trees, and B-trees, etc.
 
 ## Binary Tree
  - is a commonly used tree in which each node contains a reference to atmost two other nodes (possibly None)
@@ -11,6 +20,11 @@ http://openbookproject.net/thinkcs/python/english3e/trees.html
 - like linked lists, trees are recursive data structures that are defined recursively:
     1. the empty tree, represented by None, or
     2. a node that contains a data and two tree references (left and right subtree)
+- the topmost node in the tree is called the root node
+- nodes with no children are called leaf nodes
+- nodes that are not leaf nodes are called internal nodes
+- the height of a tree is the length of the longest path from the root to a leaf
+- trees can be traversed in different ways such as inorder, preorder, and postorder traversal
 
 ## Building trees
 - similar to building linked-list
@@ -60,7 +74,15 @@ print(tree1)
 
 
 ## traversing tree
+
 - natural way to traverse a tree is recursively!
+- for each node, visit the node and then recursively visit its left and right subtrees
+- three common ways to traverse a binary tree:
+    - inorder traversal
+    - preorder traversal
+    - postorder traversal
+- each traversal visits the nodes in a different order and is useful for different applications
+
 
 
 ```python
@@ -116,11 +138,13 @@ expression = Tree('+', Tree(1), Tree('*', Tree(2), Tree(3)))
 ```
 
 ### pre-order tree traversal
+
 - contents of the root appear before the contents of the children
 - recursive algorithm:
     - visit the node
-    - visit left subtree
+    - visit left subtree 
     - visit right subtree
+
 
 
 ```python
